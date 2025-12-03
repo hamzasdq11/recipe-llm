@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "r0001",
+    "title": "Scrambled Eggs with Onion",
+    "ingredients": ["egg", "onion", "salt", "pepper", "butter"],
+    "steps": ["Beat eggs in a bowl with salt and pepper.", "Heat butter in a pan over medium heat.", "Sauté diced onion until translucent.", "Pour eggs over onion and stir gently.", "Cook until eggs are set but still moist.", "Serve immediately."],
+    "tags": ["breakfast", "easy", "quick"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0002",
+    "title": "Classic Omelette",
+    "ingredients": ["egg", "butter", "salt", "pepper", "cheese"],
+    "steps": ["Beat eggs with salt and pepper.", "Melt butter in a non-stick pan.", "Pour in eggs and let set slightly.", "Add cheese to one half.", "Fold omelette and serve."],
+    "tags": ["breakfast", "easy", "vegetarian"],
+    "prep_time_min": 8,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0003",
+    "title": "French Toast",
+    "ingredients": ["bread", "egg", "milk", "cinnamon", "butter", "sugar"],
+    "steps": ["Whisk eggs, milk, cinnamon, and sugar.", "Dip bread slices in mixture.", "Melt butter in a pan.", "Cook bread until golden on both sides.", "Serve with syrup or fruit."],
+    "tags": ["breakfast", "sweet", "easy"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0004",
+    "title": "Fried Rice",
+    "ingredients": ["rice", "egg", "onion", "garlic", "soy sauce", "vegetable oil", "peas", "carrot"],
+    "steps": ["Cook rice and let cool.", "Beat eggs and scramble in oil.", "Sauté onion, garlic, peas, and carrot.", "Add rice and stir-fry.", "Add soy sauce and eggs.", "Mix well and serve."],
+    "tags": ["dinner", "asian", "easy"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0005",
+    "title": "Spaghetti Aglio e Olio",
+    "ingredients": ["spaghetti", "garlic", "olive oil", "chili flakes", "parsley", "salt"],
+    "steps": ["Cook spaghetti al dente.", "Slice garlic thinly.", "Heat olive oil and sauté garlic until golden.", "Add chili flakes.", "Toss pasta with oil mixture.", "Garnish with parsley."],
+    "tags": ["dinner", "italian", "quick", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0006",
+    "title": "Tomato Soup",
+    "ingredients": ["tomato", "onion", "garlic", "vegetable broth", "basil", "olive oil", "salt", "pepper"],
+    "steps": ["Sauté onion and garlic in olive oil.", "Add chopped tomatoes and cook down.", "Pour in vegetable broth.", "Simmer for 20 minutes.", "Blend until smooth.", "Season with salt, pepper, and basil."],
+    "tags": ["soup", "vegetarian", "healthy"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0007",
+    "title": "Grilled Cheese Sandwich",
+    "ingredients": ["bread", "cheese", "butter"],
+    "steps": ["Butter outsides of bread slices.", "Place cheese between slices.", "Grill in pan until golden on both sides.", "Cheese should be melted.", "Cut diagonally and serve."],
+    "tags": ["lunch", "quick", "easy", "vegetarian"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0008",
+    "title": "Chicken Stir Fry",
+    "ingredients": ["chicken breast", "bell pepper", "onion", "garlic", "soy sauce", "ginger", "vegetable oil"],
+    "steps": ["Slice chicken into strips.", "Cut vegetables into bite-sized pieces.", "Stir-fry chicken until cooked.", "Add vegetables and stir-fry.", "Add soy sauce and ginger.", "Serve over rice."],
+    "tags": ["dinner", "asian", "healthy", "protein"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0009",
+    "title": "Pancakes",
+    "ingredients": ["flour", "egg", "milk", "baking powder", "sugar", "butter", "salt"],
+    "steps": ["Mix flour, baking powder, sugar, and salt.", "Whisk egg and milk together.", "Combine wet and dry ingredients.", "Melt butter in pan.", "Pour batter and cook until bubbles form.", "Flip and cook other side."],
+    "tags": ["breakfast", "sweet", "easy"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0010",
+    "title": "Caesar Salad",
+    "ingredients": ["romaine lettuce", "parmesan", "croutons", "caesar dressing", "lemon", "garlic"],
+    "steps": ["Wash and chop lettuce.", "Make dressing with garlic and lemon.", "Toss lettuce with dressing.", "Add croutons and parmesan.", "Serve immediately."],
+    "tags": ["salad", "healthy", "quick"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0011",
+    "title": "Beef Tacos",
+    "ingredients": ["ground beef", "taco shells", "lettuce", "tomato", "cheese", "onion", "taco seasoning"],
+    "steps": ["Brown ground beef with onion.", "Add taco seasoning and water.", "Simmer until thickened.", "Warm taco shells.", "Fill with beef and toppings.", "Serve with salsa."],
+    "tags": ["dinner", "mexican", "easy"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0012",
+    "title": "Vegetable Curry",
+    "ingredients": ["potato", "carrot", "onion", "garlic", "coconut milk", "curry powder", "vegetable oil"],
+    "steps": ["Dice vegetables.", "Sauté onion and garlic.", "Add curry powder and toast.", "Add vegetables and coconut milk.", "Simmer until vegetables are tender.", "Serve over rice."],
+    "tags": ["dinner", "indian", "vegetarian", "healthy"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0013",
+    "title": "Banana Smoothie",
+    "ingredients": ["banana", "milk", "honey", "ice"],
+    "steps": ["Peel and slice banana.", "Add all ingredients to blender.", "Blend until smooth.", "Serve immediately."],
+    "tags": ["breakfast", "drink", "healthy", "quick"],
+    "prep_time_min": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0014",
+    "title": "Garlic Butter Shrimp",
+    "ingredients": ["shrimp", "garlic", "butter", "lemon", "parsley", "salt", "pepper"],
+    "steps": ["Clean and devein shrimp.", "Melt butter and sauté garlic.", "Add shrimp and cook 2-3 minutes per side.", "Squeeze lemon over shrimp.", "Garnish with parsley."],
+    "tags": ["dinner", "seafood", "quick", "protein"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0015",
+    "title": "Mushroom Risotto",
+    "ingredients": ["arborio rice", "mushroom", "onion", "garlic", "vegetable broth", "parmesan", "butter", "white wine"],
+    "steps": ["Sauté mushrooms and set aside.", "Cook onion and garlic in butter.", "Add rice and toast.", "Add wine and stir until absorbed.", "Add broth gradually, stirring.", "Fold in mushrooms and parmesan."],
+    "tags": ["dinner", "italian", "vegetarian"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0016",
+    "title": "BLT Sandwich",
+    "ingredients": ["bacon", "lettuce", "tomato", "bread", "mayonnaise"],
+    "steps": ["Cook bacon until crispy.", "Toast bread slices.", "Spread mayo on bread.", "Layer bacon, lettuce, and tomato.", "Close sandwich and serve."],
+    "tags": ["lunch", "quick", "easy"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0017",
+    "title": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "red onion", "feta cheese", "olive", "olive oil", "oregano"],
+    "steps": ["Chop cucumber, tomato, and onion.", "Combine in a bowl.", "Add olives and feta.", "Drizzle with olive oil.", "Sprinkle oregano and serve."],
+    "tags": ["salad", "healthy", "vegetarian", "mediterranean"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0018",
+    "title": "Chicken Noodle Soup",
+    "ingredients": ["chicken breast", "egg noodles", "carrot", "celery", "onion", "chicken broth", "garlic"],
+    "steps": ["Poach chicken in broth.", "Shred chicken and set aside.", "Sauté vegetables in pot.", "Add broth and bring to boil.", "Add noodles and cook.", "Return chicken and serve."],
+    "tags": ["soup", "comfort food", "healthy"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0019",
+    "title": "Avocado Toast",
+    "ingredients": ["avocado", "bread", "lemon", "salt", "pepper", "chili flakes"],
+    "steps": ["Toast bread until golden.", "Mash avocado with lemon juice.", "Season with salt and pepper.", "Spread on toast.", "Top with chili flakes."],
+    "tags": ["breakfast", "healthy", "quick", "vegetarian"],
+    "prep_time_min": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0020",
+    "title": "Beef Stroganoff",
+    "ingredients": ["beef sirloin", "mushroom", "onion", "garlic", "sour cream", "beef broth", "egg noodles"],
+    "steps": ["Slice beef into strips.", "Brown beef and set aside.", "Sauté mushrooms and onion.", "Add garlic and broth.", "Return beef and simmer.", "Stir in sour cream and serve over noodles."],
+    "tags": ["dinner", "comfort food", "protein"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0021",
+    "title": "Caprese Salad",
+    "ingredients": ["tomato", "mozzarella", "basil", "olive oil", "balsamic vinegar", "salt"],
+    "steps": ["Slice tomatoes and mozzarella.", "Arrange alternating on plate.", "Tuck basil leaves between.", "Drizzle with olive oil and balsamic.", "Season with salt."],
+    "tags": ["salad", "italian", "quick", "vegetarian"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0022",
+    "title": "Pasta Carbonara",
+    "ingredients": ["spaghetti", "bacon", "egg", "parmesan", "garlic", "black pepper"],
+    "steps": ["Cook pasta al dente.", "Fry bacon until crispy.", "Whisk eggs with parmesan.", "Toss hot pasta with bacon.", "Remove from heat, add egg mixture.", "Stir quickly and serve."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 20,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0023",
+    "title": "Mashed Potatoes",
+    "ingredients": ["potato", "butter", "milk", "salt", "pepper"],
+    "steps": ["Peel and cube potatoes.", "Boil until tender.", "Drain and return to pot.", "Add butter and milk.", "Mash until smooth.", "Season and serve."],
+    "tags": ["side dish", "comfort food", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0024",
+    "title": "Teriyaki Chicken",
+    "ingredients": ["chicken thigh", "soy sauce", "honey", "garlic", "ginger", "sesame oil", "rice"],
+    "steps": ["Mix soy sauce, honey, garlic, and ginger.", "Marinate chicken for 30 minutes.", "Cook chicken in sesame oil.", "Pour remaining marinade and simmer.", "Serve over rice."],
+    "tags": ["dinner", "asian", "protein"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0025",
+    "title": "Hummus",
+    "ingredients": ["chickpea", "tahini", "garlic", "lemon", "olive oil", "cumin", "salt"],
+    "steps": ["Drain chickpeas.", "Blend with tahini, garlic, and lemon.", "Add olive oil while blending.", "Season with cumin and salt.", "Serve with pita bread."],
+    "tags": ["appetizer", "healthy", "vegetarian", "mediterranean"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0026",
+    "title": "Egg Fried Rice",
+    "ingredients": ["rice", "egg", "green onion", "soy sauce", "vegetable oil", "salt"],
+    "steps": ["Use day-old cold rice.", "Scramble eggs and set aside.", "Stir-fry rice in hot oil.", "Add soy sauce.", "Mix in eggs and green onion.", "Season and serve."],
+    "tags": ["dinner", "asian", "quick", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0027",
+    "title": "Guacamole",
+    "ingredients": ["avocado", "lime", "onion", "tomato", "cilantro", "jalapeno", "salt"],
+    "steps": ["Mash avocados.", "Add lime juice.", "Fold in diced onion and tomato.", "Add chopped cilantro and jalapeno.", "Season with salt."],
+    "tags": ["appetizer", "mexican", "healthy", "vegetarian"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0028",
+    "title": "Baked Salmon",
+    "ingredients": ["salmon fillet", "lemon", "dill", "garlic", "olive oil", "salt", "pepper"],
+    "steps": ["Preheat oven to 400F.", "Place salmon on baking sheet.", "Drizzle with olive oil.", "Top with garlic, lemon, and dill.", "Bake 12-15 minutes."],
+    "tags": ["dinner", "seafood", "healthy", "protein"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0029",
+    "title": "Minestrone Soup",
+    "ingredients": ["carrot", "celery", "onion", "zucchini", "tomato", "kidney bean", "pasta", "vegetable broth"],
+    "steps": ["Dice all vegetables.", "Sauté onion, carrot, and celery.", "Add tomatoes and broth.", "Simmer 15 minutes.", "Add zucchini, beans, and pasta.", "Cook until pasta is done."],
+    "tags": ["soup", "italian", "vegetarian", "healthy"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0030",
+    "title": "Quesadilla",
+    "ingredients": ["tortilla", "cheese", "chicken", "bell pepper", "onion", "sour cream"],
+    "steps": ["Slice chicken and vegetables.", "Sauté filling ingredients.", "Place on half of tortilla.", "Top with cheese and fold.", "Grill until crispy.", "Serve with sour cream."],
+    "tags": ["lunch", "mexican", "quick"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0031",
+    "title": "Potato Salad",
+    "ingredients": ["potato", "egg", "mayonnaise", "mustard", "celery", "onion", "salt", "pepper"],
+    "steps": ["Boil potatoes and eggs.", "Dice potatoes and chop eggs.", "Mix mayo and mustard.", "Combine all ingredients.", "Chill before serving."],
+    "tags": ["side dish", "easy", "picnic"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0032",
+    "title": "Shrimp Scampi",
+    "ingredients": ["shrimp", "linguine", "garlic", "butter", "white wine", "lemon", "parsley"],
+    "steps": ["Cook pasta al dente.", "Sauté garlic in butter.", "Add shrimp and cook.", "Deglaze with wine and lemon.", "Toss with pasta.", "Garnish with parsley."],
+    "tags": ["dinner", "italian", "seafood"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0033",
+    "title": "Coleslaw",
+    "ingredients": ["cabbage", "carrot", "mayonnaise", "vinegar", "sugar", "salt"],
+    "steps": ["Shred cabbage and carrot.", "Mix mayo, vinegar, and sugar.", "Toss vegetables with dressing.", "Season with salt.", "Chill before serving."],
+    "tags": ["side dish", "easy", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0034",
+    "title": "Chicken Parmesan",
+    "ingredients": ["chicken breast", "breadcrumbs", "parmesan", "mozzarella", "tomato sauce", "egg", "flour"],
+    "steps": ["Pound chicken thin.", "Dredge in flour, egg, and breadcrumbs.", "Pan-fry until golden.", "Top with sauce and cheese.", "Bake until cheese melts."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0035",
+    "title": "Spinach Salad",
+    "ingredients": ["spinach", "bacon", "egg", "mushroom", "red onion", "vinaigrette"],
+    "steps": ["Wash spinach.", "Cook bacon and crumble.", "Hard boil and slice eggs.", "Slice mushrooms and onion.", "Toss all with vinaigrette."],
+    "tags": ["salad", "healthy", "protein"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0036",
+    "title": "Macaroni and Cheese",
+    "ingredients": ["macaroni", "cheddar cheese", "butter", "milk", "flour", "salt", "pepper"],
+    "steps": ["Cook macaroni.", "Make roux with butter and flour.", "Add milk and whisk.", "Stir in cheese until melted.", "Combine with pasta.", "Season and serve."],
+    "tags": ["dinner", "comfort food", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0037",
+    "title": "Tuna Salad",
+    "ingredients": ["tuna", "mayonnaise", "celery", "onion", "lemon", "salt", "pepper"],
+    "steps": ["Drain tuna.", "Dice celery and onion.", "Mix all ingredients.", "Add lemon juice.", "Season to taste."],
+    "tags": ["lunch", "quick", "protein"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0038",
+    "title": "Vegetable Stir Fry",
+    "ingredients": ["broccoli", "bell pepper", "carrot", "snap peas", "garlic", "soy sauce", "sesame oil"],
+    "steps": ["Cut vegetables into pieces.", "Heat oil in wok.", "Stir-fry garlic.", "Add vegetables and cook.", "Season with soy sauce.", "Serve over rice."],
+    "tags": ["dinner", "asian", "healthy", "vegetarian"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0039",
+    "title": "Bruschetta",
+    "ingredients": ["baguette", "tomato", "basil", "garlic", "olive oil", "balsamic vinegar", "salt"],
+    "steps": ["Slice and toast baguette.", "Dice tomatoes.", "Mix with basil, garlic, and oil.", "Top bread with tomato mixture.", "Drizzle with balsamic."],
+    "tags": ["appetizer", "italian", "quick", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0040",
+    "title": "Pulled Pork Sandwich",
+    "ingredients": ["pork shoulder", "bbq sauce", "onion", "garlic", "hamburger bun", "coleslaw"],
+    "steps": ["Season pork and slow cook.", "Shred meat when tender.", "Mix with BBQ sauce.", "Toast buns.", "Pile pork on bun.", "Top with coleslaw."],
+    "tags": ["dinner", "american", "comfort food"],
+    "prep_time_min": 240,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0041",
+    "title": "Oatmeal with Berries",
+    "ingredients": ["oats", "milk", "honey", "blueberry", "strawberry", "cinnamon"],
+    "steps": ["Cook oats in milk.", "Stir in honey and cinnamon.", "Top with fresh berries.", "Serve warm."],
+    "tags": ["breakfast", "healthy", "quick"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0042",
+    "title": "Fish Tacos",
+    "ingredients": ["white fish", "tortilla", "cabbage", "lime", "cilantro", "sour cream", "cumin"],
+    "steps": ["Season fish with cumin.", "Grill or pan-fry fish.", "Shred cabbage.", "Warm tortillas.", "Assemble tacos.", "Top with sour cream and cilantro."],
+    "tags": ["dinner", "mexican", "seafood"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0043",
+    "title": "Deviled Eggs",
+    "ingredients": ["egg", "mayonnaise", "mustard", "paprika", "salt", "pepper"],
+    "steps": ["Hard boil eggs.", "Cut in half and remove yolks.", "Mash yolks with mayo and mustard.", "Pipe filling into whites.", "Sprinkle with paprika."],
+    "tags": ["appetizer", "easy", "party food"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0044",
+    "title": "Sloppy Joes",
+    "ingredients": ["ground beef", "onion", "bell pepper", "tomato sauce", "brown sugar", "mustard", "hamburger bun"],
+    "steps": ["Brown beef with onion and pepper.", "Add tomato sauce, sugar, and mustard.", "Simmer until thick.", "Toast buns.", "Spoon meat onto buns."],
+    "tags": ["dinner", "american", "comfort food"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0045",
+    "title": "Gazpacho",
+    "ingredients": ["tomato", "cucumber", "bell pepper", "onion", "garlic", "olive oil", "vinegar"],
+    "steps": ["Roughly chop vegetables.", "Blend until smooth.", "Add olive oil and vinegar.", "Season and chill.", "Serve cold."],
+    "tags": ["soup", "spanish", "healthy", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0046",
+    "title": "Beef Burrito",
+    "ingredients": ["ground beef", "tortilla", "rice", "black bean", "cheese", "salsa", "sour cream"],
+    "steps": ["Brown beef with seasoning.", "Warm tortilla.", "Layer rice, beans, beef, and cheese.", "Add salsa and sour cream.", "Roll up burrito."],
+    "tags": ["dinner", "mexican", "filling"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0047",
+    "title": "Lemon Chicken",
+    "ingredients": ["chicken breast", "lemon", "garlic", "rosemary", "olive oil", "salt", "pepper"],
+    "steps": ["Marinate chicken in lemon and garlic.", "Season with rosemary.", "Pan-sear in olive oil.", "Cook until done.", "Serve with lemon slices."],
+    "tags": ["dinner", "healthy", "protein"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0048",
+    "title": "Ratatouille",
+    "ingredients": ["eggplant", "zucchini", "bell pepper", "tomato", "onion", "garlic", "olive oil", "basil"],
+    "steps": ["Dice all vegetables.", "Sauté onion and garlic.", "Add remaining vegetables.", "Season with basil.", "Simmer until tender."],
+    "tags": ["dinner", "french", "vegetarian", "healthy"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0049",
+    "title": "Club Sandwich",
+    "ingredients": ["bread", "turkey", "bacon", "lettuce", "tomato", "mayonnaise"],
+    "steps": ["Toast bread.", "Cook bacon crispy.", "Spread mayo on bread.", "Layer turkey, bacon, lettuce, tomato.", "Stack with third slice of bread."],
+    "tags": ["lunch", "quick"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0050",
+    "title": "Sweet Potato Fries",
+    "ingredients": ["sweet potato", "olive oil", "salt", "paprika", "garlic powder"],
+    "steps": ["Cut sweet potatoes into strips.", "Toss with oil and seasonings.", "Spread on baking sheet.", "Bake at 425F for 25 minutes.", "Flip halfway through."],
+    "tags": ["side dish", "healthy", "vegetarian"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0051",
+    "title": "Egg Drop Soup",
+    "ingredients": ["egg", "chicken broth", "green onion", "ginger", "cornstarch", "sesame oil"],
+    "steps": ["Heat broth with ginger.", "Mix cornstarch with water.", "Add to broth to thicken.", "Slowly drizzle beaten eggs.", "Top with green onion and sesame oil."],
+    "tags": ["soup", "asian", "quick", "easy"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0052",
+    "title": "Stuffed Bell Peppers",
+    "ingredients": ["bell pepper", "ground beef", "rice", "tomato sauce", "onion", "cheese"],
+    "steps": ["Cut tops off peppers.", "Brown beef with onion.", "Mix with rice and sauce.", "Stuff peppers with mixture.", "Top with cheese.", "Bake until peppers are tender."],
+    "tags": ["dinner", "comfort food"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0053",
+    "title": "Shakshuka",
+    "ingredients": ["egg", "tomato", "bell pepper", "onion", "garlic", "cumin", "paprika"],
+    "steps": ["Sauté onion and pepper.", "Add garlic and spices.", "Add tomatoes and simmer.", "Make wells and crack eggs.", "Cover and cook until eggs set."],
+    "tags": ["breakfast", "mediterranean", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0054",
+    "title": "Chicken Fried Rice",
+    "ingredients": ["rice", "chicken", "egg", "carrot", "peas", "soy sauce", "green onion"],
+    "steps": ["Use day-old rice.", "Cook diced chicken.", "Scramble eggs.", "Stir-fry vegetables.", "Combine all with soy sauce.", "Top with green onion."],
+    "tags": ["dinner", "asian", "quick"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0055",
+    "title": "Cobb Salad",
+    "ingredients": ["romaine lettuce", "chicken", "bacon", "egg", "avocado", "tomato", "blue cheese"],
+    "steps": ["Chop lettuce.", "Arrange toppings in rows.", "Include grilled chicken, bacon, egg.", "Add avocado and tomato.", "Crumble blue cheese on top."],
+    "tags": ["salad", "protein", "healthy"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0056",
+    "title": "Pesto Pasta",
+    "ingredients": ["pasta", "basil", "pine nuts", "parmesan", "garlic", "olive oil"],
+    "steps": ["Cook pasta.", "Blend basil, nuts, parmesan, garlic.", "Add olive oil while blending.", "Toss pasta with pesto.", "Serve with extra parmesan."],
+    "tags": ["dinner", "italian", "vegetarian", "quick"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0057",
+    "title": "Meatballs",
+    "ingredients": ["ground beef", "breadcrumbs", "egg", "parmesan", "garlic", "parsley", "onion"],
+    "steps": ["Mix all ingredients.", "Form into balls.", "Brown in pan.", "Simmer in tomato sauce.", "Serve over pasta."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0058",
+    "title": "Lentil Soup",
+    "ingredients": ["lentil", "carrot", "celery", "onion", "garlic", "cumin", "vegetable broth"],
+    "steps": ["Sauté vegetables.", "Add garlic and cumin.", "Add lentils and broth.", "Simmer 25 minutes.", "Season to taste."],
+    "tags": ["soup", "healthy", "vegetarian", "protein"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0059",
+    "title": "Butter Chicken",
+    "ingredients": ["chicken", "tomato sauce", "butter", "cream", "onion", "garlic", "garam masala", "ginger"],
+    "steps": ["Marinate chicken in spices.", "Cook chicken and set aside.", "Sauté onion, garlic, ginger.", "Add tomato sauce and simmer.", "Add butter and cream.", "Return chicken and serve."],
+    "tags": ["dinner", "indian", "comfort food"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0060",
+    "title": "Waldorf Salad",
+    "ingredients": ["apple", "celery", "walnut", "grape", "mayonnaise", "lemon", "lettuce"],
+    "steps": ["Dice apple and celery.", "Halve grapes.", "Mix with mayo and lemon.", "Add walnuts.", "Serve on lettuce."],
+    "tags": ["salad", "quick", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0061",
+    "title": "Spring Rolls",
+    "ingredients": ["rice paper", "shrimp", "lettuce", "rice noodles", "mint", "carrot", "peanut sauce"],
+    "steps": ["Cook shrimp and noodles.", "Soften rice paper in water.", "Layer ingredients on paper.", "Roll up tightly.", "Serve with peanut sauce."],
+    "tags": ["appetizer", "asian", "healthy"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0062",
+    "title": "Honey Garlic Chicken",
+    "ingredients": ["chicken thigh", "honey", "garlic", "soy sauce", "butter", "ginger"],
+    "steps": ["Mix honey, garlic, soy sauce, ginger.", "Brown chicken in butter.", "Pour sauce over chicken.", "Simmer until cooked through.", "Glaze should be sticky."],
+    "tags": ["dinner", "asian", "protein"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0063",
+    "title": "Eggplant Parmesan",
+    "ingredients": ["eggplant", "breadcrumbs", "parmesan", "mozzarella", "tomato sauce", "egg", "flour"],
+    "steps": ["Slice and salt eggplant.", "Dredge in flour, egg, breadcrumbs.", "Fry until golden.", "Layer with sauce and cheese.", "Bake until bubbly."],
+    "tags": ["dinner", "italian", "vegetarian"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0064",
+    "title": "Corn Chowder",
+    "ingredients": ["corn", "potato", "bacon", "onion", "cream", "chicken broth", "butter"],
+    "steps": ["Cook bacon and set aside.", "Sauté onion in butter.", "Add potatoes and broth.", "Simmer until tender.", "Add corn and cream.", "Top with bacon."],
+    "tags": ["soup", "comfort food"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0065",
+    "title": "Pad Thai",
+    "ingredients": ["rice noodles", "shrimp", "egg", "bean sprouts", "peanuts", "lime", "fish sauce", "tamarind"],
+    "steps": ["Soak rice noodles.", "Stir-fry shrimp.", "Push aside and scramble egg.", "Add noodles and sauce.", "Toss with bean sprouts.", "Serve with peanuts and lime."],
+    "tags": ["dinner", "thai", "asian"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0066",
+    "title": "Chicken Salad",
+    "ingredients": ["chicken breast", "mayonnaise", "celery", "grape", "almond", "lemon"],
+    "steps": ["Poach and shred chicken.", "Dice celery and halve grapes.", "Mix with mayo and lemon.", "Add almonds.", "Serve on bread or lettuce."],
+    "tags": ["lunch", "quick", "protein"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0067",
+    "title": "Fried Chicken",
+    "ingredients": ["chicken", "flour", "buttermilk", "paprika", "garlic powder", "salt", "vegetable oil"],
+    "steps": ["Soak chicken in buttermilk.", "Mix flour with seasonings.", "Dredge chicken.", "Fry until golden and cooked.", "Rest on wire rack."],
+    "tags": ["dinner", "american", "comfort food"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0068",
+    "title": "Cucumber Salad",
+    "ingredients": ["cucumber", "red onion", "dill", "vinegar", "sugar", "salt"],
+    "steps": ["Slice cucumbers thinly.", "Slice red onion.", "Mix vinegar, sugar, and salt.", "Toss vegetables with dressing.", "Add fresh dill."],
+    "tags": ["side dish", "healthy", "vegetarian", "quick"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0069",
+    "title": "Beef Chili",
+    "ingredients": ["ground beef", "kidney bean", "tomato", "onion", "garlic", "chili powder", "cumin"],
+    "steps": ["Brown beef with onion.", "Add garlic and spices.", "Add tomatoes and beans.", "Simmer 30 minutes.", "Serve with toppings."],
+    "tags": ["dinner", "american", "comfort food", "spicy"],
+    "prep_time_min": 45,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0070",
+    "title": "Garlic Bread",
+    "ingredients": ["baguette", "butter", "garlic", "parsley"],
+    "steps": ["Mix soft butter with garlic.", "Slice baguette.", "Spread butter on slices.", "Sprinkle parsley.", "Bake until golden."],
+    "tags": ["side dish", "italian", "easy", "quick"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0071",
+    "title": "Nicoise Salad",
+    "ingredients": ["tuna", "green bean", "potato", "egg", "olive", "tomato", "vinaigrette"],
+    "steps": ["Cook potatoes, beans, and eggs.", "Arrange on platter.", "Add tuna and olives.", "Quarter tomatoes.", "Drizzle with vinaigrette."],
+    "tags": ["salad", "french", "healthy", "protein"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0072",
+    "title": "Chicken Fajitas",
+    "ingredients": ["chicken breast", "bell pepper", "onion", "lime", "cumin", "tortilla", "sour cream"],
+    "steps": ["Slice chicken and vegetables.", "Season with cumin and lime.", "Sauté chicken until done.", "Cook vegetables.", "Serve in warm tortillas."],
+    "tags": ["dinner", "mexican", "quick"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0073",
+    "title": "Clam Chowder",
+    "ingredients": ["clam", "potato", "bacon", "onion", "cream", "celery", "butter"],
+    "steps": ["Cook bacon.", "Sauté vegetables in butter.", "Add potatoes and clam juice.", "Simmer until tender.", "Add clams and cream."],
+    "tags": ["soup", "seafood", "comfort food"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0074",
+    "title": "Black Bean Tacos",
+    "ingredients": ["black bean", "tortilla", "avocado", "lime", "cilantro", "onion", "cumin"],
+    "steps": ["Mash beans with cumin.", "Warm in pan.", "Warm tortillas.", "Fill with beans.", "Top with avocado and cilantro."],
+    "tags": ["dinner", "mexican", "vegetarian", "healthy"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0075",
+    "title": "Roasted Vegetables",
+    "ingredients": ["carrot", "zucchini", "bell pepper", "onion", "olive oil", "rosemary", "garlic"],
+    "steps": ["Cut vegetables into chunks.", "Toss with oil and seasonings.", "Spread on baking sheet.", "Roast at 425F for 30 minutes.", "Stir halfway."],
+    "tags": ["side dish", "healthy", "vegetarian"],
+    "prep_time_min": 40,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0076",
+    "title": "Lasagna",
+    "ingredients": ["lasagna noodles", "ground beef", "ricotta", "mozzarella", "parmesan", "tomato sauce", "onion"],
+    "steps": ["Cook noodles.", "Brown beef with onion.", "Mix with tomato sauce.", "Layer noodles, meat, cheeses.", "Repeat layers.", "Bake until bubbly."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0077",
+    "title": "Eggs Benedict",
+    "ingredients": ["english muffin", "egg", "canadian bacon", "butter", "lemon", "egg yolk"],
+    "steps": ["Toast muffins.", "Warm canadian bacon.", "Poach eggs.", "Make hollandaise with yolks and butter.", "Assemble and drizzle sauce."],
+    "tags": ["breakfast", "brunch", "fancy"],
+    "prep_time_min": 30,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0078",
+    "title": "Falafel",
+    "ingredients": ["chickpea", "onion", "garlic", "parsley", "cumin", "coriander", "flour"],
+    "steps": ["Soak dried chickpeas overnight.", "Blend with herbs and spices.", "Form into balls.", "Fry until golden.", "Serve in pita."],
+    "tags": ["dinner", "mediterranean", "vegetarian"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0079",
+    "title": "Thai Coconut Soup",
+    "ingredients": ["coconut milk", "chicken", "mushroom", "lemongrass", "lime", "fish sauce", "ginger"],
+    "steps": ["Simmer coconut milk with lemongrass.", "Add chicken and mushrooms.", "Season with fish sauce.", "Add lime juice.", "Garnish with cilantro."],
+    "tags": ["soup", "thai", "asian"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0080",
+    "title": "Veggie Burger",
+    "ingredients": ["black bean", "oats", "onion", "garlic", "cumin", "egg", "hamburger bun"],
+    "steps": ["Mash beans.", "Mix with oats and seasonings.", "Add egg to bind.", "Form patties.", "Pan-fry until crispy.", "Serve on bun."],
+    "tags": ["dinner", "vegetarian", "healthy"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0081",
+    "title": "Shrimp Cocktail",
+    "ingredients": ["shrimp", "cocktail sauce", "lemon", "horseradish"],
+    "steps": ["Boil shrimp until pink.", "Chill in ice water.", "Make cocktail sauce.", "Arrange shrimp around bowl.", "Serve with sauce."],
+    "tags": ["appetizer", "seafood", "easy"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0082",
+    "title": "Banana Bread",
+    "ingredients": ["banana", "flour", "sugar", "butter", "egg", "baking soda", "vanilla"],
+    "steps": ["Mash ripe bananas.", "Cream butter and sugar.", "Add eggs and vanilla.", "Mix in dry ingredients.", "Fold in bananas.", "Bake at 350F for 60 minutes."],
+    "tags": ["breakfast", "baking", "sweet"],
+    "prep_time_min": 75,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0083",
+    "title": "Mediterranean Wrap",
+    "ingredients": ["tortilla", "hummus", "cucumber", "tomato", "feta", "olive", "lettuce"],
+    "steps": ["Spread hummus on tortilla.", "Layer vegetables.", "Add feta and olives.", "Roll up tightly.", "Cut in half."],
+    "tags": ["lunch", "mediterranean", "vegetarian", "healthy"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0084",
+    "title": "Beef and Broccoli",
+    "ingredients": ["beef sirloin", "broccoli", "soy sauce", "garlic", "ginger", "cornstarch", "sesame oil"],
+    "steps": ["Slice beef thinly.", "Marinate in soy sauce.", "Stir-fry beef and set aside.", "Cook broccoli.", "Return beef with sauce.", "Thicken with cornstarch."],
+    "tags": ["dinner", "asian", "protein"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0085",
+    "title": "Fruit Salad",
+    "ingredients": ["strawberry", "blueberry", "grape", "orange", "apple", "honey", "mint"],
+    "steps": ["Wash and prepare all fruit.", "Cut into bite-sized pieces.", "Drizzle with honey.", "Toss gently.", "Garnish with mint."],
+    "tags": ["dessert", "healthy", "quick", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0086",
+    "title": "Chicken Tikka Masala",
+    "ingredients": ["chicken", "yogurt", "tomato sauce", "cream", "garam masala", "onion", "garlic", "ginger"],
+    "steps": ["Marinate chicken in yogurt and spices.", "Grill or bake chicken.", "Make sauce with onion, garlic, ginger.", "Add tomato sauce and simmer.", "Add cream and chicken.", "Serve over rice."],
+    "tags": ["dinner", "indian", "spicy"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0087",
+    "title": "Stuffed Mushrooms",
+    "ingredients": ["mushroom", "cream cheese", "garlic", "parmesan", "breadcrumbs", "parsley"],
+    "steps": ["Remove mushroom stems.", "Mix filling ingredients.", "Stuff mushroom caps.", "Top with breadcrumbs.", "Bake until golden."],
+    "tags": ["appetizer", "vegetarian", "party food"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0088",
+    "title": "Chicken Alfredo",
+    "ingredients": ["fettuccine", "chicken breast", "butter", "cream", "parmesan", "garlic"],
+    "steps": ["Cook pasta.", "Grill sliced chicken.", "Make sauce with butter and cream.", "Add parmesan and garlic.", "Toss pasta with sauce.", "Top with chicken."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0089",
+    "title": "Vietnamese Pho",
+    "ingredients": ["beef broth", "rice noodles", "beef sirloin", "bean sprouts", "basil", "lime", "onion", "star anise"],
+    "steps": ["Simmer broth with spices.", "Cook rice noodles.", "Slice beef very thin.", "Assemble in bowls.", "Ladle hot broth over.", "Serve with garnishes."],
+    "tags": ["soup", "vietnamese", "asian"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0090",
+    "title": "Apple Pie",
+    "ingredients": ["apple", "sugar", "cinnamon", "butter", "flour", "pie crust"],
+    "steps": ["Slice apples.", "Toss with sugar and cinnamon.", "Place in pie crust.", "Dot with butter.", "Cover with top crust.", "Bake at 375F for 50 minutes."],
+    "tags": ["dessert", "baking", "american"],
+    "prep_time_min": 75,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0091",
+    "title": "Breakfast Burrito",
+    "ingredients": ["tortilla", "egg", "bacon", "cheese", "potato", "salsa"],
+    "steps": ["Cook bacon and potatoes.", "Scramble eggs.", "Warm tortilla.", "Fill with ingredients.", "Add salsa and cheese.", "Roll up."],
+    "tags": ["breakfast", "mexican", "filling"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0092",
+    "title": "Bibimbap",
+    "ingredients": ["rice", "beef", "spinach", "carrot", "zucchini", "egg", "gochujang", "sesame oil"],
+    "steps": ["Cook rice.", "Prepare each vegetable separately.", "Cook beef with soy sauce.", "Fry egg sunny side up.", "Arrange in bowl.", "Top with gochujang."],
+    "tags": ["dinner", "korean", "asian"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0093",
+    "title": "Croque Monsieur",
+    "ingredients": ["bread", "ham", "gruyere cheese", "butter", "flour", "milk"],
+    "steps": ["Make bechamel sauce.", "Layer ham and cheese on bread.", "Top with more cheese and sauce.", "Broil until bubbly."],
+    "tags": ["lunch", "french", "comfort food"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0094",
+    "title": "Chicken Wings",
+    "ingredients": ["chicken wing", "butter", "hot sauce", "garlic", "vegetable oil"],
+    "steps": ["Pat wings dry.", "Fry until crispy.", "Make buffalo sauce with butter and hot sauce.", "Toss wings in sauce.", "Serve with celery."],
+    "tags": ["appetizer", "american", "spicy", "party food"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0095",
+    "title": "Dal Tadka",
+    "ingredients": ["lentil", "onion", "tomato", "garlic", "cumin", "turmeric", "ghee", "cilantro"],
+    "steps": ["Cook lentils until soft.", "Make tadka with ghee and spices.", "Sauté onion and tomato.", "Add to lentils.", "Garnish with cilantro."],
+    "tags": ["dinner", "indian", "vegetarian", "healthy"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0096",
+    "title": "Caprese Chicken",
+    "ingredients": ["chicken breast", "tomato", "mozzarella", "basil", "balsamic vinegar", "olive oil"],
+    "steps": ["Season and grill chicken.", "Top with tomato and mozzarella.", "Broil to melt cheese.", "Drizzle with balsamic.", "Add fresh basil."],
+    "tags": ["dinner", "italian", "healthy", "protein"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0097",
+    "title": "Potato Soup",
+    "ingredients": ["potato", "bacon", "onion", "cream", "chicken broth", "cheese", "chives"],
+    "steps": ["Cook bacon.", "Sauté onion.", "Add potatoes and broth.", "Simmer until tender.", "Add cream and cheese.", "Top with bacon and chives."],
+    "tags": ["soup", "comfort food"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0098",
+    "title": "Spinach Artichoke Dip",
+    "ingredients": ["spinach", "artichoke", "cream cheese", "parmesan", "garlic", "sour cream"],
+    "steps": ["Chop spinach and artichokes.", "Mix all ingredients.", "Bake until bubbly.", "Serve with chips or bread."],
+    "tags": ["appetizer", "party food", "vegetarian"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0099",
+    "title": "Fish and Chips",
+    "ingredients": ["white fish", "potato", "flour", "beer", "vegetable oil", "salt"],
+    "steps": ["Cut potatoes into chips.", "Make batter with flour and beer.", "Fry chips until golden.", "Dip fish in batter.", "Fry until crispy.", "Season with salt."],
+    "tags": ["dinner", "british", "comfort food"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0100",
+    "title": "Greek Yogurt Parfait",
+    "ingredients": ["greek yogurt", "granola", "honey", "blueberry", "strawberry"],
+    "steps": ["Layer yogurt in glass.", "Add granola.", "Top with berries.", "Drizzle with honey.", "Repeat layers."],
+    "tags": ["breakfast", "healthy", "quick"],
+    "prep_time_min": 5,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0101",
+    "title": "Kung Pao Chicken",
+    "ingredients": ["chicken breast", "peanut", "bell pepper", "chili", "soy sauce", "vinegar", "garlic", "ginger"],
+    "steps": ["Cube chicken.", "Make sauce with soy sauce and vinegar.", "Stir-fry chicken.", "Add vegetables and chilies.", "Add peanuts and sauce.", "Serve over rice."],
+    "tags": ["dinner", "chinese", "asian", "spicy"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0102",
+    "title": "Zucchini Noodles",
+    "ingredients": ["zucchini", "garlic", "olive oil", "parmesan", "cherry tomato", "basil"],
+    "steps": ["Spiralize zucchini.", "Sauté garlic in oil.", "Add zucchini noodles.", "Cook 2-3 minutes.", "Add tomatoes and parmesan.", "Top with basil."],
+    "tags": ["dinner", "healthy", "low-carb", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0103",
+    "title": "Chicken Pot Pie",
+    "ingredients": ["chicken", "carrot", "peas", "celery", "cream", "pie crust", "chicken broth"],
+    "steps": ["Cook chicken and vegetables.", "Make cream sauce.", "Combine filling.", "Pour into pie dish.", "Top with crust.", "Bake until golden."],
+    "tags": ["dinner", "american", "comfort food"],
+    "prep_time_min": 50,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0104",
+    "title": "Margherita Pizza",
+    "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil", "olive oil"],
+    "steps": ["Roll out dough.", "Spread tomato sauce.", "Add mozzarella.", "Bake at 475F until crispy.", "Top with fresh basil.", "Drizzle with olive oil."],
+    "tags": ["dinner", "italian", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0105",
+    "title": "Chocolate Chip Cookies",
+    "ingredients": ["flour", "butter", "sugar", "brown sugar", "egg", "chocolate chips", "vanilla", "baking soda"],
+    "steps": ["Cream butter and sugars.", "Add egg and vanilla.", "Mix in dry ingredients.", "Fold in chocolate chips.", "Scoop onto baking sheet.", "Bake at 350F for 10-12 minutes."],
+    "tags": ["dessert", "baking", "sweet"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0106",
+    "title": "Beef Bolognese",
+    "ingredients": ["ground beef", "tomato", "onion", "carrot", "celery", "red wine", "pasta", "parmesan"],
+    "steps": ["Finely dice vegetables.", "Brown beef.", "Add vegetables and cook.", "Add tomatoes and wine.", "Simmer 45 minutes.", "Serve over pasta."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0107",
+    "title": "Tzatziki",
+    "ingredients": ["greek yogurt", "cucumber", "garlic", "dill", "lemon", "olive oil"],
+    "steps": ["Grate cucumber and drain.", "Mix with yogurt.", "Add garlic and dill.", "Season with lemon.", "Drizzle with oil."],
+    "tags": ["appetizer", "greek", "mediterranean", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0108",
+    "title": "Pork Chops",
+    "ingredients": ["pork chop", "garlic", "rosemary", "butter", "olive oil", "salt", "pepper"],
+    "steps": ["Season pork chops.", "Sear in hot pan.", "Add butter, garlic, rosemary.", "Baste with butter.", "Rest before serving."],
+    "tags": ["dinner", "protein", "easy"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0109",
+    "title": "Cheese Quesadilla",
+    "ingredients": ["tortilla", "cheese", "butter"],
+    "steps": ["Butter outside of tortilla.", "Fill with cheese.", "Fold in half.", "Cook until golden on both sides.", "Cut into wedges."],
+    "tags": ["lunch", "mexican", "quick", "vegetarian"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0110",
+    "title": "Sausage and Peppers",
+    "ingredients": ["italian sausage", "bell pepper", "onion", "garlic", "tomato sauce", "olive oil"],
+    "steps": ["Brown sausages.", "Sauté peppers and onion.", "Add garlic.", "Add tomato sauce.", "Simmer with sausages."],
+    "tags": ["dinner", "italian", "easy"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0111",
+    "title": "Hot and Sour Soup",
+    "ingredients": ["chicken broth", "tofu", "mushroom", "bamboo shoots", "egg", "vinegar", "soy sauce", "chili oil"],
+    "steps": ["Heat broth.", "Add mushrooms and bamboo.", "Add tofu.", "Season with vinegar and soy sauce.", "Drizzle in beaten egg.", "Add chili oil."],
+    "tags": ["soup", "chinese", "asian", "spicy"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0112",
+    "title": "Stuffed Zucchini",
+    "ingredients": ["zucchini", "ground beef", "rice", "tomato sauce", "onion", "parmesan"],
+    "steps": ["Halve zucchini and scoop out seeds.", "Cook beef with onion.", "Mix with rice and sauce.", "Stuff zucchini.", "Top with cheese.", "Bake until tender."],
+    "tags": ["dinner", "healthy"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0113",
+    "title": "Banana Pancakes",
+    "ingredients": ["banana", "egg", "oats", "baking powder", "cinnamon", "butter"],
+    "steps": ["Blend banana, egg, and oats.", "Add baking powder and cinnamon.", "Cook on buttered pan.", "Flip when bubbles form.", "Serve with maple syrup."],
+    "tags": ["breakfast", "healthy", "quick"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0114",
+    "title": "Shrimp Fried Rice",
+    "ingredients": ["rice", "shrimp", "egg", "peas", "carrot", "soy sauce", "green onion"],
+    "steps": ["Use cold rice.", "Scramble eggs.", "Stir-fry shrimp.", "Add vegetables.", "Add rice and soy sauce.", "Top with green onion."],
+    "tags": ["dinner", "asian", "quick", "seafood"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0115",
+    "title": "Vegetable Soup",
+    "ingredients": ["carrot", "potato", "celery", "onion", "tomato", "green bean", "vegetable broth"],
+    "steps": ["Dice all vegetables.", "Sauté onion.", "Add remaining vegetables.", "Pour in broth.", "Simmer until tender.", "Season to taste."],
+    "tags": ["soup", "vegetarian", "healthy"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0116",
+    "title": "Cinnamon Rolls",
+    "ingredients": ["flour", "milk", "butter", "sugar", "yeast", "cinnamon", "cream cheese"],
+    "steps": ["Make dough and let rise.", "Roll out and spread butter.", "Sprinkle cinnamon sugar.", "Roll up and slice.", "Bake until golden.", "Top with cream cheese frosting."],
+    "tags": ["breakfast", "baking", "sweet"],
+    "prep_time_min": 120,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0117",
+    "title": "Spinach Quiche",
+    "ingredients": ["pie crust", "spinach", "egg", "cream", "gruyere cheese", "onion", "nutmeg"],
+    "steps": ["Blind bake crust.", "Sauté spinach and onion.", "Whisk eggs with cream.", "Add cheese and nutmeg.", "Pour into crust.", "Bake until set."],
+    "tags": ["breakfast", "brunch", "french", "vegetarian"],
+    "prep_time_min": 50,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0118",
+    "title": "Gyro Wrap",
+    "ingredients": ["lamb", "pita bread", "tomato", "onion", "tzatziki", "lettuce"],
+    "steps": ["Season and cook lamb.", "Slice thinly.", "Warm pita.", "Layer lamb and vegetables.", "Add tzatziki.", "Roll up."],
+    "tags": ["dinner", "greek", "mediterranean"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0119",
+    "title": "Peanut Butter Sandwich",
+    "ingredients": ["bread", "peanut butter", "jelly"],
+    "steps": ["Spread peanut butter on one slice.", "Spread jelly on other slice.", "Press together.", "Cut diagonally."],
+    "tags": ["lunch", "quick", "easy", "vegetarian"],
+    "prep_time_min": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0120",
+    "title": "Orange Chicken",
+    "ingredients": ["chicken breast", "orange juice", "soy sauce", "honey", "garlic", "ginger", "cornstarch"],
+    "steps": ["Cube and bread chicken.", "Fry until crispy.", "Make sauce with orange and soy.", "Thicken with cornstarch.", "Toss chicken in sauce.", "Serve over rice."],
+    "tags": ["dinner", "chinese", "asian", "sweet"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0121",
+    "title": "Baked Potato",
+    "ingredients": ["potato", "butter", "sour cream", "cheese", "bacon", "chives"],
+    "steps": ["Scrub and prick potatoes.", "Bake at 400F for 60 minutes.", "Slice open.", "Add butter and sour cream.", "Top with cheese, bacon, chives."],
+    "tags": ["side dish", "comfort food", "easy"],
+    "prep_time_min": 70,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0122",
+    "title": "Antipasto Platter",
+    "ingredients": ["salami", "prosciutto", "mozzarella", "olive", "artichoke", "roasted pepper"],
+    "steps": ["Arrange meats on platter.", "Add cheese.", "Add olives and vegetables.", "Drizzle with olive oil.", "Serve with bread."],
+    "tags": ["appetizer", "italian", "party food"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0123",
+    "title": "Cauliflower Rice",
+    "ingredients": ["cauliflower", "garlic", "olive oil", "salt", "pepper", "parsley"],
+    "steps": ["Grate or pulse cauliflower.", "Sauté garlic in oil.", "Add cauliflower.", "Cook until tender.", "Season and garnish."],
+    "tags": ["side dish", "healthy", "low-carb", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0124",
+    "title": "Shepherd's Pie",
+    "ingredients": ["ground lamb", "onion", "carrot", "peas", "tomato paste", "potato", "butter"],
+    "steps": ["Brown lamb with vegetables.", "Add tomato paste and broth.", "Make mashed potatoes.", "Put meat in dish.", "Top with potatoes.", "Bake until golden."],
+    "tags": ["dinner", "british", "comfort food"],
+    "prep_time_min": 50,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0125",
+    "title": "Egg Salad",
+    "ingredients": ["egg", "mayonnaise", "mustard", "celery", "chives", "salt", "pepper"],
+    "steps": ["Hard boil eggs.", "Chop eggs.", "Mix with mayo and mustard.", "Add celery and chives.", "Season to taste."],
+    "tags": ["lunch", "quick", "easy"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0126",
+    "title": "Tofu Stir Fry",
+    "ingredients": ["tofu", "broccoli", "bell pepper", "soy sauce", "garlic", "ginger", "sesame oil"],
+    "steps": ["Press and cube tofu.", "Pan-fry until crispy.", "Stir-fry vegetables.", "Add garlic and ginger.", "Combine with sauce.", "Serve over rice."],
+    "tags": ["dinner", "asian", "vegetarian", "healthy"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0127",
+    "title": "Blueberry Muffins",
+    "ingredients": ["flour", "sugar", "butter", "egg", "milk", "blueberry", "baking powder"],
+    "steps": ["Mix dry ingredients.", "Combine wet ingredients.", "Fold together gently.", "Add blueberries.", "Fill muffin cups.", "Bake at 375F for 20 minutes."],
+    "tags": ["breakfast", "baking", "sweet"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0128",
+    "title": "Goulash",
+    "ingredients": ["beef", "onion", "bell pepper", "tomato", "paprika", "caraway", "sour cream"],
+    "steps": ["Brown beef.", "Sauté onion and pepper.", "Add paprika and caraway.", "Add tomatoes and beef.", "Simmer until tender.", "Serve with sour cream."],
+    "tags": ["dinner", "hungarian", "comfort food"],
+    "prep_time_min": 90,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0129",
+    "title": "Caprese Sandwich",
+    "ingredients": ["ciabatta", "mozzarella", "tomato", "basil", "balsamic", "olive oil"],
+    "steps": ["Slice ciabatta.", "Layer mozzarella and tomato.", "Add fresh basil.", "Drizzle with oil and balsamic.", "Close sandwich."],
+    "tags": ["lunch", "italian", "vegetarian"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0130",
+    "title": "Jambalaya",
+    "ingredients": ["rice", "chicken", "andouille sausage", "shrimp", "bell pepper", "celery", "onion", "cajun seasoning"],
+    "steps": ["Cook sausage and chicken.", "Sauté vegetables.", "Add rice and seasoning.", "Add broth and simmer.", "Add shrimp at end.", "Let rest before serving."],
+    "tags": ["dinner", "cajun", "spicy"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0131",
+    "title": "Crepes",
+    "ingredients": ["flour", "egg", "milk", "butter", "sugar", "vanilla"],
+    "steps": ["Blend batter ingredients.", "Rest 30 minutes.", "Cook thin pancakes.", "Fill with desired toppings.", "Roll or fold to serve."],
+    "tags": ["breakfast", "french", "sweet"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0132",
+    "title": "Chicken Caesar Wrap",
+    "ingredients": ["tortilla", "chicken breast", "romaine lettuce", "parmesan", "caesar dressing"],
+    "steps": ["Grill and slice chicken.", "Chop lettuce.", "Spread dressing on tortilla.", "Add chicken and lettuce.", "Sprinkle parmesan.", "Roll up tightly."],
+    "tags": ["lunch", "quick", "protein"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0133",
+    "title": "Miso Soup",
+    "ingredients": ["dashi", "miso paste", "tofu", "wakame", "green onion"],
+    "steps": ["Heat dashi broth.", "Dissolve miso paste.", "Add cubed tofu.", "Add wakame seaweed.", "Top with green onion."],
+    "tags": ["soup", "japanese", "asian", "healthy"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0134",
+    "title": "Reuben Sandwich",
+    "ingredients": ["rye bread", "corned beef", "sauerkraut", "swiss cheese", "russian dressing", "butter"],
+    "steps": ["Butter bread.", "Layer corned beef and sauerkraut.", "Add cheese and dressing.", "Grill until golden.", "Serve hot."],
+    "tags": ["lunch", "american", "comfort food"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0135",
+    "title": "Palak Paneer",
+    "ingredients": ["spinach", "paneer", "onion", "garlic", "ginger", "cream", "garam masala"],
+    "steps": ["Blanch and puree spinach.", "Fry paneer cubes.", "Sauté onion, garlic, ginger.", "Add spinach puree.", "Add spices and cream.", "Fold in paneer."],
+    "tags": ["dinner", "indian", "vegetarian"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0136",
+    "title": "BBQ Ribs",
+    "ingredients": ["pork ribs", "bbq sauce", "brown sugar", "paprika", "garlic powder", "onion powder"],
+    "steps": ["Remove membrane from ribs.", "Rub with spices and sugar.", "Bake covered for 2 hours.", "Brush with BBQ sauce.", "Broil until caramelized."],
+    "tags": ["dinner", "american", "bbq"],
+    "prep_time_min": 150,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0137",
+    "title": "Scalloped Potatoes",
+    "ingredients": ["potato", "cream", "cheese", "garlic", "thyme", "butter"],
+    "steps": ["Slice potatoes thinly.", "Make cream sauce with garlic.", "Layer potatoes in dish.", "Pour cream over.", "Top with cheese.", "Bake until golden."],
+    "tags": ["side dish", "comfort food", "vegetarian"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0138",
+    "title": "Sushi Roll",
+    "ingredients": ["sushi rice", "nori", "salmon", "avocado", "cucumber", "rice vinegar", "soy sauce"],
+    "steps": ["Season rice with vinegar.", "Place nori on mat.", "Spread rice on nori.", "Add fillings.", "Roll tightly.", "Slice with wet knife."],
+    "tags": ["dinner", "japanese", "asian", "seafood"],
+    "prep_time_min": 45,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0139",
+    "title": "Corn on the Cob",
+    "ingredients": ["corn", "butter", "salt", "pepper"],
+    "steps": ["Boil water.", "Add corn and cook 5-7 minutes.", "Remove and pat dry.", "Spread with butter.", "Season with salt and pepper."],
+    "tags": ["side dish", "easy", "vegetarian", "summer"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0140",
+    "title": "Chicken Marsala",
+    "ingredients": ["chicken breast", "mushroom", "marsala wine", "butter", "flour", "shallot", "parsley"],
+    "steps": ["Dredge chicken in flour.", "Pan-fry until golden.", "Sauté mushrooms and shallots.", "Add marsala wine.", "Simmer to reduce.", "Pour over chicken."],
+    "tags": ["dinner", "italian", "fancy"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0141",
+    "title": "Baba Ganoush",
+    "ingredients": ["eggplant", "tahini", "garlic", "lemon", "olive oil", "parsley"],
+    "steps": ["Char eggplant over flame.", "Scoop out flesh.", "Blend with tahini and garlic.", "Add lemon juice.", "Drizzle with olive oil.", "Garnish with parsley."],
+    "tags": ["appetizer", "mediterranean", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0142",
+    "title": "Waffles",
+    "ingredients": ["flour", "egg", "milk", "butter", "sugar", "baking powder", "vanilla"],
+    "steps": ["Mix dry ingredients.", "Whisk wet ingredients.", "Combine batter.", "Pour into hot waffle iron.", "Cook until golden.", "Serve with toppings."],
+    "tags": ["breakfast", "sweet", "brunch"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0143",
+    "title": "Salmon Teriyaki",
+    "ingredients": ["salmon", "soy sauce", "mirin", "sake", "sugar", "ginger", "sesame seeds"],
+    "steps": ["Make teriyaki sauce.", "Pan-sear salmon skin-side down.", "Flip and add sauce.", "Glaze and reduce.", "Garnish with sesame seeds."],
+    "tags": ["dinner", "japanese", "asian", "seafood"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0144",
+    "title": "Buffalo Cauliflower",
+    "ingredients": ["cauliflower", "hot sauce", "butter", "flour", "garlic powder"],
+    "steps": ["Cut cauliflower into florets.", "Make batter with flour.", "Coat and bake until crispy.", "Toss in buffalo sauce.", "Serve with ranch."],
+    "tags": ["appetizer", "vegetarian", "spicy"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0145",
+    "title": "Chocolate Mousse",
+    "ingredients": ["dark chocolate", "egg", "sugar", "cream", "vanilla"],
+    "steps": ["Melt chocolate.", "Separate eggs.", "Whip whites with sugar.", "Whip cream.", "Fold chocolate into yolks.", "Fold in whites and cream.", "Chill 4 hours."],
+    "tags": ["dessert", "french", "fancy"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0146",
+    "title": "Chana Masala",
+    "ingredients": ["chickpea", "tomato", "onion", "garlic", "ginger", "garam masala", "cumin", "cilantro"],
+    "steps": ["Sauté onion, garlic, ginger.", "Add spices and toast.", "Add tomatoes and cook.", "Add chickpeas and simmer.", "Garnish with cilantro."],
+    "tags": ["dinner", "indian", "vegetarian", "healthy"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0147",
+    "title": "Cuban Sandwich",
+    "ingredients": ["cuban bread", "ham", "roasted pork", "swiss cheese", "pickle", "mustard"],
+    "steps": ["Slice bread lengthwise.", "Spread mustard.", "Layer ham, pork, cheese, pickles.", "Press sandwich.", "Grill until crispy."],
+    "tags": ["lunch", "cuban", "comfort food"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0148",
+    "title": "Shakshuka Toast",
+    "ingredients": ["bread", "egg", "tomato sauce", "feta", "parsley", "cumin"],
+    "steps": ["Toast bread.", "Spoon shakshuka over toast.", "Top with feta.", "Sprinkle cumin.", "Garnish with parsley."],
+    "tags": ["breakfast", "mediterranean", "quick"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0149",
+    "title": "Beef Bourguignon",
+    "ingredients": ["beef chuck", "red wine", "bacon", "onion", "carrot", "mushroom", "thyme", "beef broth"],
+    "steps": ["Brown beef and bacon.", "Sauté vegetables.", "Add wine and broth.", "Add thyme.", "Braise 2-3 hours.", "Add mushrooms at end."],
+    "tags": ["dinner", "french", "fancy", "comfort food"],
+    "prep_time_min": 180,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0150",
+    "title": "Chicken Shawarma",
+    "ingredients": ["chicken thigh", "cumin", "paprika", "turmeric", "garlic", "lemon", "pita", "tahini"],
+    "steps": ["Marinate chicken in spices.", "Grill or roast chicken.", "Slice thinly.", "Warm pita.", "Drizzle with tahini sauce.", "Add vegetables."],
+    "tags": ["dinner", "mediterranean", "middle eastern"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0151",
+    "title": "Cornbread",
+    "ingredients": ["cornmeal", "flour", "buttermilk", "egg", "butter", "sugar", "baking powder"],
+    "steps": ["Mix dry ingredients.", "Combine wet ingredients.", "Mix together.", "Pour into greased pan.", "Bake at 400F for 25 minutes."],
+    "tags": ["side dish", "baking", "american"],
+    "prep_time_min": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0152",
+    "title": "Chicken Tortilla Soup",
+    "ingredients": ["chicken", "tomato", "onion", "garlic", "chicken broth", "cumin", "tortilla chips", "avocado"],
+    "steps": ["Roast tomatoes, onion, garlic.", "Blend and add to broth.", "Add shredded chicken.", "Season with cumin.", "Simmer 20 minutes.", "Serve with chips and avocado."],
+    "tags": ["soup", "mexican", "spicy"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0153",
+    "title": "Tiramisu",
+    "ingredients": ["ladyfinger", "espresso", "mascarpone", "egg", "sugar", "cocoa powder", "rum"],
+    "steps": ["Make espresso and add rum.", "Whisk yolks with sugar.", "Fold in mascarpone.", "Dip ladyfingers in coffee.", "Layer in dish.", "Dust with cocoa."],
+    "tags": ["dessert", "italian", "fancy"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0154",
+    "title": "Ahi Tuna Poke",
+    "ingredients": ["ahi tuna", "soy sauce", "sesame oil", "green onion", "rice", "avocado", "seaweed"],
+    "steps": ["Cube fresh tuna.", "Mix with soy sauce and sesame oil.", "Add green onion.", "Serve over rice.", "Top with avocado and seaweed."],
+    "tags": ["dinner", "hawaiian", "seafood", "healthy"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0155",
+    "title": "Hot Dog",
+    "ingredients": ["hot dog", "hot dog bun", "mustard", "ketchup", "onion", "relish"],
+    "steps": ["Grill or boil hot dogs.", "Toast buns.", "Place hot dog in bun.", "Add desired toppings."],
+    "tags": ["lunch", "american", "quick", "easy"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0156",
+    "title": "Chicken Kiev",
+    "ingredients": ["chicken breast", "butter", "garlic", "parsley", "breadcrumbs", "egg", "flour"],
+    "steps": ["Pound chicken flat.", "Place herbed butter inside.", "Roll and seal.", "Bread with flour, egg, crumbs.", "Deep fry or bake.", "Rest before cutting."],
+    "tags": ["dinner", "ukrainian", "fancy"],
+    "prep_time_min": 45,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0157",
+    "title": "Butternut Squash Soup",
+    "ingredients": ["butternut squash", "onion", "garlic", "vegetable broth", "cream", "nutmeg", "sage"],
+    "steps": ["Roast squash.", "Sauté onion and garlic.", "Add squash and broth.", "Simmer 20 minutes.", "Blend until smooth.", "Add cream and nutmeg."],
+    "tags": ["soup", "vegetarian", "healthy", "fall"],
+    "prep_time_min": 50,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0158",
+    "title": "Chicken Biryani",
+    "ingredients": ["chicken", "basmati rice", "yogurt", "onion", "ginger", "garlic", "garam masala", "saffron"],
+    "steps": ["Marinate chicken in yogurt and spices.", "Fry onions until golden.", "Cook chicken.", "Layer with par-cooked rice.", "Add saffron milk.", "Dum cook covered."],
+    "tags": ["dinner", "indian", "spicy", "fancy"],
+    "prep_time_min": 75,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0159",
+    "title": "Chicken Satay",
+    "ingredients": ["chicken", "coconut milk", "curry powder", "peanut butter", "soy sauce", "lime", "garlic"],
+    "steps": ["Marinate chicken in coconut and curry.", "Thread onto skewers.", "Grill until charred.", "Make peanut sauce.", "Serve with sauce."],
+    "tags": ["appetizer", "thai", "asian"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0160",
+    "title": "Lobster Roll",
+    "ingredients": ["lobster", "mayonnaise", "lemon", "celery", "butter", "hot dog bun"],
+    "steps": ["Cook and chop lobster.", "Mix with mayo, lemon, celery.", "Toast buttered buns.", "Fill with lobster salad.", "Serve immediately."],
+    "tags": ["lunch", "seafood", "american"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0161",
+    "title": "General Tso's Chicken",
+    "ingredients": ["chicken thigh", "cornstarch", "soy sauce", "hoisin", "chili", "garlic", "ginger", "broccoli"],
+    "steps": ["Cut and coat chicken in cornstarch.", "Deep fry until crispy.", "Make sauce with remaining ingredients.", "Toss chicken in sauce.", "Serve with steamed broccoli."],
+    "tags": ["dinner", "chinese", "asian", "spicy"],
+    "prep_time_min": 35,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0162",
+    "title": "Cheese Fondue",
+    "ingredients": ["gruyere", "emmental", "white wine", "garlic", "cornstarch", "kirsch", "bread"],
+    "steps": ["Rub pot with garlic.", "Heat wine.", "Add shredded cheese gradually.", "Stir until smooth.", "Add cornstarch and kirsch.", "Serve with bread cubes."],
+    "tags": ["dinner", "swiss", "fancy", "party food"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0163",
+    "title": "Eggs Florentine",
+    "ingredients": ["english muffin", "egg", "spinach", "hollandaise", "butter"],
+    "steps": ["Toast muffins.", "Sauté spinach.", "Poach eggs.", "Layer spinach on muffins.", "Top with eggs.", "Drizzle hollandaise."],
+    "tags": ["breakfast", "brunch", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0164",
+    "title": "Lamb Chops",
+    "ingredients": ["lamb chop", "rosemary", "garlic", "olive oil", "salt", "pepper", "butter"],
+    "steps": ["Season lamb chops.", "Sear in hot pan.", "Add butter, rosemary, garlic.", "Baste while cooking.", "Rest before serving."],
+    "tags": ["dinner", "protein", "fancy"],
+    "prep_time_min": 20,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0165",
+    "title": "Shakshuka",
+    "ingredients": ["egg", "tomato", "bell pepper", "onion", "garlic", "cumin", "paprika", "feta"],
+    "steps": ["Sauté onion and pepper.", "Add garlic and spices.", "Add crushed tomatoes.", "Simmer 10 minutes.", "Make wells and add eggs.", "Cover until eggs set.", "Top with feta."],
+    "tags": ["breakfast", "mediterranean", "vegetarian"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0166",
+    "title": "Ceviche",
+    "ingredients": ["white fish", "lime", "lemon", "onion", "cilantro", "jalapeno", "tomato"],
+    "steps": ["Cube fresh fish.", "Cover with citrus juice.", "Marinate 30 minutes.", "Add vegetables.", "Season with salt.", "Serve cold with chips."],
+    "tags": ["appetizer", "seafood", "peruvian", "healthy"],
+    "prep_time_min": 45,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0167",
+    "title": "Cheesecake",
+    "ingredients": ["cream cheese", "sugar", "egg", "vanilla", "graham cracker", "butter", "sour cream"],
+    "steps": ["Make graham crust.", "Beat cream cheese and sugar.", "Add eggs one at a time.", "Pour over crust.", "Bake in water bath.", "Chill overnight."],
+    "tags": ["dessert", "baking", "fancy"],
+    "prep_time_min": 90,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0168",
+    "title": "Stuffed Cabbage Rolls",
+    "ingredients": ["cabbage", "ground beef", "rice", "onion", "tomato sauce", "garlic"],
+    "steps": ["Blanch cabbage leaves.", "Mix meat with rice and onion.", "Roll filling in leaves.", "Place in baking dish.", "Cover with sauce.", "Bake 1 hour."],
+    "tags": ["dinner", "eastern european", "comfort food"],
+    "prep_time_min": 90,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0169",
+    "title": "Panna Cotta",
+    "ingredients": ["cream", "sugar", "vanilla", "gelatin", "berry"],
+    "steps": ["Bloom gelatin.", "Heat cream with sugar.", "Add vanilla.", "Stir in gelatin.", "Pour into molds.", "Chill 4 hours.", "Serve with berries."],
+    "tags": ["dessert", "italian", "fancy"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0170",
+    "title": "Moroccan Tagine",
+    "ingredients": ["chicken", "apricot", "almond", "onion", "cinnamon", "cumin", "honey", "cilantro"],
+    "steps": ["Brown chicken.", "Sauté onion with spices.", "Add chicken and broth.", "Add apricots.", "Simmer until tender.", "Top with almonds and cilantro."],
+    "tags": ["dinner", "moroccan", "exotic"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0171",
+    "title": "Potato Pancakes",
+    "ingredients": ["potato", "onion", "egg", "flour", "salt", "vegetable oil", "sour cream"],
+    "steps": ["Grate potatoes and onion.", "Squeeze out moisture.", "Mix with egg and flour.", "Form into patties.", "Fry until golden.", "Serve with sour cream."],
+    "tags": ["side dish", "jewish", "vegetarian"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0172",
+    "title": "Arroz con Pollo",
+    "ingredients": ["chicken", "rice", "bell pepper", "onion", "tomato", "saffron", "peas", "olive"],
+    "steps": ["Brown chicken pieces.", "Sauté vegetables.", "Add rice and saffron.", "Add broth and tomatoes.", "Nestle chicken in rice.", "Bake until rice is done."],
+    "tags": ["dinner", "spanish", "latin"],
+    "prep_time_min": 50,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0173",
+    "title": "Brussel Sprouts",
+    "ingredients": ["brussel sprouts", "bacon", "garlic", "balsamic vinegar", "olive oil"],
+    "steps": ["Halve brussel sprouts.", "Roast with oil at 425F.", "Cook bacon.", "Toss sprouts with bacon.", "Drizzle with balsamic."],
+    "tags": ["side dish", "healthy", "vegetarian"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0174",
+    "title": "Mango Salsa",
+    "ingredients": ["mango", "red onion", "jalapeno", "cilantro", "lime", "salt"],
+    "steps": ["Dice mango.", "Finely chop onion and jalapeno.", "Mix all ingredients.", "Add lime juice.", "Season with salt.", "Chill before serving."],
+    "tags": ["appetizer", "mexican", "healthy", "vegetarian"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0175",
+    "title": "Steak and Eggs",
+    "ingredients": ["steak", "egg", "butter", "salt", "pepper", "rosemary"],
+    "steps": ["Season steak.", "Pan-sear to desired doneness.", "Rest steak.", "Fry eggs in butter.", "Slice steak.", "Serve with eggs."],
+    "tags": ["breakfast", "protein", "brunch"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0176",
+    "title": "Fettuccine Alfredo",
+    "ingredients": ["fettuccine", "butter", "cream", "parmesan", "garlic", "parsley"],
+    "steps": ["Cook pasta.", "Melt butter with garlic.", "Add cream and simmer.", "Stir in parmesan.", "Toss with pasta.", "Garnish with parsley."],
+    "tags": ["dinner", "italian", "comfort food"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0177",
+    "title": "Banh Mi",
+    "ingredients": ["baguette", "pork", "carrot", "daikon", "cucumber", "cilantro", "jalapeno", "mayonnaise"],
+    "steps": ["Pickle carrot and daikon.", "Cook seasoned pork.", "Slice baguette.", "Spread mayo.", "Layer pork and vegetables.", "Add cilantro and jalapeno."],
+    "tags": ["lunch", "vietnamese", "asian"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0178",
+    "title": "Pierogi",
+    "ingredients": ["flour", "egg", "potato", "cheese", "onion", "butter", "sour cream"],
+    "steps": ["Make dough with flour and egg.", "Make potato cheese filling.", "Roll and cut circles.", "Fill and seal edges.", "Boil until they float.", "Pan-fry in butter."],
+    "tags": ["dinner", "polish", "comfort food"],
+    "prep_time_min": 90,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0179",
+    "title": "Acai Bowl",
+    "ingredients": ["acai", "banana", "berries", "granola", "honey", "coconut"],
+    "steps": ["Blend acai with banana.", "Pour into bowl.", "Top with berries.", "Add granola.", "Drizzle honey.", "Sprinkle coconut."],
+    "tags": ["breakfast", "healthy", "vegetarian"],
+    "prep_time_min": 10,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0180",
+    "title": "Peking Duck",
+    "ingredients": ["duck", "hoisin sauce", "pancake", "cucumber", "green onion", "honey"],
+    "steps": ["Score and dry duck.", "Glaze with honey mixture.", "Roast until crispy.", "Slice meat and skin.", "Serve with pancakes.", "Add hoisin and vegetables."],
+    "tags": ["dinner", "chinese", "asian", "fancy"],
+    "prep_time_min": 180,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0181",
+    "title": "Green Curry",
+    "ingredients": ["chicken", "green curry paste", "coconut milk", "bamboo shoots", "basil", "fish sauce", "sugar"],
+    "steps": ["Fry curry paste in coconut cream.", "Add chicken and cook.", "Add coconut milk.", "Add bamboo shoots.", "Season with fish sauce and sugar.", "Add basil."],
+    "tags": ["dinner", "thai", "asian", "spicy"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0182",
+    "title": "Eggs in Purgatory",
+    "ingredients": ["egg", "tomato sauce", "garlic", "chili flakes", "parmesan", "basil", "bread"],
+    "steps": ["Heat tomato sauce with garlic.", "Add chili flakes.", "Make wells for eggs.", "Cover and cook eggs.", "Top with parmesan and basil.", "Serve with crusty bread."],
+    "tags": ["breakfast", "italian", "vegetarian"],
+    "prep_time_min": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0183",
+    "title": "Duck Confit",
+    "ingredients": ["duck leg", "salt", "garlic", "thyme", "duck fat"],
+    "steps": ["Salt duck legs overnight.", "Rinse and dry.", "Submerge in duck fat.", "Cook at 300F for 3 hours.", "Rest until cool.", "Crisp skin before serving."],
+    "tags": ["dinner", "french", "fancy"],
+    "prep_time_min": 240,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0184",
+    "title": "Biscuits and Gravy",
+    "ingredients": ["biscuit", "sausage", "flour", "milk", "butter", "salt", "pepper"],
+    "steps": ["Bake biscuits.", "Brown sausage.", "Add flour to make roux.", "Pour in milk.", "Simmer until thick.", "Pour gravy over biscuits."],
+    "tags": ["breakfast", "american", "comfort food"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0185",
+    "title": "Empanadas",
+    "ingredients": ["flour", "butter", "ground beef", "onion", "olive", "egg", "cumin", "paprika"],
+    "steps": ["Make dough.", "Cook beef filling with spices.", "Roll and cut dough circles.", "Fill and fold.", "Seal edges with fork.", "Bake until golden."],
+    "tags": ["appetizer", "latin", "argentina"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0186",
+    "title": "Cacio e Pepe",
+    "ingredients": ["spaghetti", "pecorino romano", "black pepper", "pasta water"],
+    "steps": ["Cook pasta very al dente.", "Toast pepper in pan.", "Reserve pasta water.", "Toss pasta with cheese and water.", "Add more pepper.", "Serve immediately."],
+    "tags": ["dinner", "italian", "quick"],
+    "prep_time_min": 15,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0187",
+    "title": "Churros",
+    "ingredients": ["flour", "water", "butter", "sugar", "egg", "cinnamon", "chocolate"],
+    "steps": ["Make choux dough.", "Pipe into oil.", "Fry until golden.", "Roll in cinnamon sugar.", "Make chocolate dipping sauce.", "Serve warm."],
+    "tags": ["dessert", "spanish", "sweet"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0188",
+    "title": "Saag Aloo",
+    "ingredients": ["spinach", "potato", "onion", "garlic", "ginger", "cumin", "turmeric", "garam masala"],
+    "steps": ["Parboil potato cubes.", "Sauté onion, garlic, ginger.", "Add spices.", "Add potatoes and fry.", "Add spinach and wilt.", "Season to taste."],
+    "tags": ["dinner", "indian", "vegetarian", "healthy"],
+    "prep_time_min": 30,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0189",
+    "title": "Croissant",
+    "ingredients": ["flour", "butter", "milk", "yeast", "sugar", "salt", "egg"],
+    "steps": ["Make dough.", "Fold in butter layers.", "Chill and fold 3 times.", "Roll and cut triangles.", "Shape croissants.", "Proof and bake."],
+    "tags": ["breakfast", "french", "baking"],
+    "prep_time_min": 360,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0190",
+    "title": "Moussaka",
+    "ingredients": ["eggplant", "ground lamb", "tomato", "onion", "bechamel", "cinnamon", "nutmeg"],
+    "steps": ["Slice and salt eggplant.", "Fry eggplant slices.", "Make meat sauce.", "Make bechamel.", "Layer in baking dish.", "Bake until golden."],
+    "tags": ["dinner", "greek", "comfort food"],
+    "prep_time_min": 90,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0191",
+    "title": "Chicken Adobo",
+    "ingredients": ["chicken", "soy sauce", "vinegar", "garlic", "bay leaf", "peppercorn", "onion"],
+    "steps": ["Marinate chicken.", "Brown chicken pieces.", "Add marinade.", "Simmer until tender.", "Reduce sauce.", "Serve over rice."],
+    "tags": ["dinner", "filipino", "asian"],
+    "prep_time_min": 45,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0192",
+    "title": "Lemon Bars",
+    "ingredients": ["flour", "butter", "sugar", "egg", "lemon", "powdered sugar"],
+    "steps": ["Make shortbread crust.", "Bake until set.", "Mix lemon filling.", "Pour over crust.", "Bake until set.", "Dust with powdered sugar."],
+    "tags": ["dessert", "baking", "sweet"],
+    "prep_time_min": 50,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0193",
+    "title": "Tom Yum Soup",
+    "ingredients": ["shrimp", "lemongrass", "galangal", "lime", "fish sauce", "chili", "mushroom", "cilantro"],
+    "steps": ["Boil water with lemongrass.", "Add galangal.", "Add mushrooms.", "Add shrimp.", "Season with fish sauce and lime.", "Garnish with cilantro."],
+    "tags": ["soup", "thai", "asian", "spicy"],
+    "prep_time_min": 25,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0194",
+    "title": "Beef Wellington",
+    "ingredients": ["beef tenderloin", "mushroom", "prosciutto", "puff pastry", "mustard", "egg", "shallot"],
+    "steps": ["Sear beef.", "Make mushroom duxelles.", "Wrap in prosciutto.", "Wrap in pastry.", "Brush with egg wash.", "Bake until golden."],
+    "tags": ["dinner", "british", "fancy"],
+    "prep_time_min": 120,
+    "difficulty": "hard"
+  },
+  {
+    "id": "r0195",
+    "title": "Flan",
+    "ingredients": ["egg", "condensed milk", "milk", "vanilla", "sugar"],
+    "steps": ["Make caramel.", "Pour into mold.", "Blend custard ingredients.", "Pour over caramel.", "Bake in water bath.", "Chill and unmold."],
+    "tags": ["dessert", "spanish", "sweet"],
+    "prep_time_min": 60,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0196",
+    "title": "Okonomiyaki",
+    "ingredients": ["cabbage", "flour", "egg", "pork belly", "okonomiyaki sauce", "mayonnaise", "bonito flakes"],
+    "steps": ["Mix batter with cabbage.", "Pour onto griddle.", "Top with pork.", "Flip when set.", "Cook until done.", "Top with sauce and mayo."],
+    "tags": ["dinner", "japanese", "asian"],
+    "prep_time_min": 30,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0197",
+    "title": "Cornish Pasty",
+    "ingredients": ["flour", "butter", "beef", "potato", "onion", "rutabaga", "egg"],
+    "steps": ["Make pastry dough.", "Dice filling ingredients.", "Fill pastry circles.", "Crimp edges.", "Brush with egg wash.", "Bake until golden."],
+    "tags": ["dinner", "british", "comfort food"],
+    "prep_time_min": 75,
+    "difficulty": "medium"
+  },
+  {
+    "id": "r0198",
+    "title": "Chimichurri Steak",
+    "ingredients": ["steak", "parsley", "oregano", "garlic", "red wine vinegar", "olive oil", "chili flakes"],
+    "steps": ["Make chimichurri sauce.", "Season and grill steak.", "Rest before slicing.", "Drizzle with chimichurri.", "Serve immediately."],
+    "tags": ["dinner", "argentinian", "protein"],
+    "prep_time_min": 25,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0199",
+    "title": "Eton Mess",
+    "ingredients": ["strawberry", "cream", "meringue", "sugar", "vanilla"],
+    "steps": ["Hull and slice strawberries.", "Whip cream with vanilla.", "Break meringue into pieces.", "Fold berries into cream.", "Fold in meringue.", "Serve immediately."],
+    "tags": ["dessert", "british", "sweet"],
+    "prep_time_min": 15,
+    "difficulty": "easy"
+  },
+  {
+    "id": "r0200",
+    "title": "Risotto alla Milanese",
+    "ingredients": ["arborio rice", "saffron", "onion", "white wine", "chicken broth", "butter", "parmesan"],
+    "steps": ["Sauté onion.", "Add rice and toast.", "Add wine.", "Add warm broth gradually.", "Steep saffron in broth.", "Finish with butter and parmesan."],
+    "tags": ["dinner", "italian", "fancy"],
+    "prep_time_min": 40,
+    "difficulty": "medium"
+  }
+]

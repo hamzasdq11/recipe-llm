@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe LLM - Find Recipes by Ingredients</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Recipe LLM</h1>
+            <p class="subtitle">Find delicious recipes based on your available ingredients</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="input-group">
+                    <label for="ingredients">Enter your ingredients (comma-separated):</label>
+                    <div class="input-wrapper">
+                        <input 
+                            type="text" 
+                            id="ingredients" 
+                            placeholder="e.g., egg, onion, butter, cheese"
+                            autocomplete="off"
+                        >
+                        <button id="searchBtn" class="btn btn-primary">Find Recipes</button>
+                    </div>
+                </div>
+
+                <div class="options">
+                    <div class="option-group">
+                        <label for="mode">Matching Mode:</label>
+                        <select id="mode">
+                            <option value="hybrid" selected>Hybrid (Recommended)</option>
+                            <option value="exact">Exact Match</option>
+                            <option value="fuzzy">Fuzzy Match</option>
+                        </select>
+                    </div>
+                    <div class="option-group">
+                        <label for="topK">Results:</label>
+                        <select id="topK">
+                            <option value="3">3</option>
+                            <option value="5" selected>5</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Searching for recipes...</p>
+            </div>
+
+            <div id="results" class="results-section hidden">
+                <h2>Recipe Suggestions</h2>
+                <div id="recipeList" class="recipe-list"></div>
+            </div>
+
+            <div id="error" class="error-section hidden">
+                <p id="errorMessage"></p>
+            </div>
+        </main>
+
+        <section class="chat-section">
+            <h2>Chat with Recipe Assistant</h2>
+            <div id="chatContainer" class="chat-container">
+                <div id="chatMessages" class="chat-messages">
+                    <div class="message assistant">
+                        <p>Hello! I'm your recipe assistant. Ask me anything about cooking or recipes!</p>
+                    </div>
+                </div>
+                <div class="chat-input-wrapper">
+                    <input 
+                        type="text" 
+                        id="chatInput" 
+                        placeholder="Ask about recipes, cooking tips, or ingredient substitutions..."
+                    >
+                    <button id="sendBtn" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Recipe LLM v1.0.0 | Local-first recipe recommendation system</p>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

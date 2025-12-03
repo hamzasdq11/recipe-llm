@@ -1,0 +1,120 @@
+{
+  "examples": [
+    {
+      "name": "Basic prediction",
+      "endpoint": "POST /api/v1/predict",
+      "request": {
+        "ingredients": ["egg", "onion"],
+        "top_k": 5,
+        "mode": "hybrid"
+      },
+      "expected_response": {
+        "query": ["egg", "onion"],
+        "results": [
+          {
+            "recipe_id": "r0001",
+            "title": "Scrambled Eggs with Onion",
+            "score": 0.92,
+            "ingredients_matched": ["egg", "onion"],
+            "missing_ingredients": ["salt", "pepper", "butter"],
+            "instructions": "Beat eggs in a bowl with salt and pepper...",
+            "tags": ["breakfast", "easy", "quick"],
+            "prep_time_min": 10,
+            "difficulty": "easy"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prediction with common ingredients",
+      "endpoint": "POST /api/v1/predict",
+      "request": {
+        "ingredients": ["chicken", "garlic", "lemon"],
+        "top_k": 3,
+        "mode": "hybrid",
+        "include_explanation": true
+      }
+    },
+    {
+      "name": "Breakfast recipes",
+      "endpoint": "POST /api/v1/predict",
+      "request": {
+        "ingredients": ["egg", "butter", "milk", "flour"],
+        "top_k": 5,
+        "mode": "fuzzy"
+      }
+    },
+    {
+      "name": "Italian cuisine",
+      "endpoint": "POST /api/v1/predict",
+      "request": {
+        "ingredients": ["pasta", "tomato", "garlic", "olive oil"],
+        "top_k": 5,
+        "mode": "hybrid"
+      }
+    },
+    {
+      "name": "Asian stir fry",
+      "endpoint": "POST /api/v1/predict",
+      "request": {
+        "ingredients": ["chicken", "soy sauce", "ginger", "garlic"],
+        "top_k": 5,
+        "mode": "hybrid"
+      }
+    },
+    {
+      "name": "Vegetarian options",
+      "endpoint": "POST /api/v1/predict",
+      "request": {
+        "ingredients": ["tomato", "onion", "garlic", "basil"],
+        "top_k": 5,
+        "mode": "hybrid"
+      }
+    },
+    {
+      "name": "Chat request",
+      "endpoint": "POST /api/v1/chat",
+      "request": {
+        "message": "I have eggs, cheese, and bread. What's a quick breakfast?",
+        "conversation_history": [],
+        "max_tokens": 200
+      }
+    },
+    {
+      "name": "Multi-turn chat",
+      "endpoint": "POST /api/v1/chat",
+      "request": {
+        "message": "Can you make it healthier?",
+        "conversation_history": [
+          {"role": "user", "content": "What can I make with eggs?"},
+          {"role": "assistant", "content": "With eggs, you could make scrambled eggs, an omelette, or French toast!"}
+        ],
+        "max_tokens": 200
+      }
+    },
+    {
+      "name": "Health check",
+      "endpoint": "GET /health",
+      "expected_response": {
+        "status": "healthy",
+        "model_loaded": true,
+        "model_name": "mock-recipe-model",
+        "mode": "minimal",
+        "recipes_loaded": 200,
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "List recipes by tag",
+      "endpoint": "GET /api/v1/recipes?tag=breakfast&limit=5"
+    },
+    {
+      "name": "Get recipe by ID",
+      "endpoint": "GET /api/v1/recipes/r0001"
+    },
+    {
+      "name": "List all ingredients",
+      "endpoint": "GET /api/v1/ingredients"
+    }
+  ]
+}
