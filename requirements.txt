@@ -1,55 +1,23 @@
 # Core FastAPI dependencies
 fastapi==0.109.0
-uvicorn[standard]==0.27.0
+uvicorn==0.27.0
 pydantic==2.5.3
 pydantic-settings==2.1.0
 
-# ML/LLM dependencies
-transformers==4.36.2
-torch>=2.1.0
-accelerate==0.25.0
-peft==0.7.1
-bitsandbytes==0.41.3
-datasets==2.16.1
-sentencepiece==0.1.99
-safetensors==0.4.1
-
-# llama.cpp Python bindings for CPU inference
-llama-cpp-python==0.2.32
-
-# Sentence transformers for embeddings (optional)
-sentence-transformers==2.2.2
+# Fuzzy matching (lightweight)
+rapidfuzz==3.6.1
 
 # Data processing
 pandas==2.1.4
 numpy>=1.24.0
 
-# Fuzzy matching
-rapidfuzz==3.6.1
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+cachetools==5.3.2
 
 # Testing
 pytest==7.4.4
 pytest-asyncio==0.23.3
 httpx==0.26.0
-
-# Utilities
-python-dotenv==1.0.0
 tqdm==4.66.1
-huggingface-hub==0.20.2
-requests==2.31.0
-
-# Caching
-cachetools==5.3.2
-cachetools
-fastapi
-httpx
-pandas
-pydantic
-pydantic-settings
-pytest
-pytest-asyncio
-python-dotenv
-rapidfuzz
-requests
-tqdm
-uvicorn

@@ -1,0 +1,8 @@
+{
+  "name": "recipe-llm",
+  "version": "1.0.0",
+  "description": "Local-first recipe recommendation system using LLM",
+  "engines": {
+    "node": "18.x"
+  }
+}
