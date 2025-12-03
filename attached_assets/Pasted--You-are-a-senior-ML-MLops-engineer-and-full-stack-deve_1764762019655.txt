@@ -1,0 +1,163 @@
+
+You are a senior ML/MLops engineer and full-stack developer. Build a complete, production-quality project that runs locally on a standard Windows or Linux laptop (no cloud services required). The project must train or fine-tune a small LLM (or use a quantized / small open-source model) and expose it via a FastAPI service with a chatbot UI that returns recipes given ingredients (example: user inputs egg, onion → respond with a short recipe). Deliver code, instructions, and test data so the reviewer can run everything locally.
+Constrain the solution as follows and document any resource assumptions (CPU-only, 8–16GB RAM, optional single GPU):
+ 
+1) High-level requirements
+•	Local-first: Everything runs locally. No external paid APIs or cloud-managed vector DBs.
+•	Reproducible: Clear README.md with step-by-step setup instructions (Windows & Linux), dependencies, and commands.
+•	Lightweight by default: Provide two modes:
+o	Minimal mode (for CPU-only / low-RAM machines) — uses a small quantized model or a distilled model; training should use LoRA/on-device fine-tuning or adapter-style fine-tuning, or skip fine-tune and use prompt-engineering with a local model.
+o	Full mode (if GPU available) — demonstrates optional fine-tuning on a recipes dataset.
+•	Deliverables: complete source code, sample datasets, scripts to build & run, and unit/integration tests.
+ 
+2) Model selection & setup (must include options and code)
+•	Recommend and support at least one open-source LLM suitable for local use (examples you may choose from and must justify):
+o	Small models: llama.cpp-compatible quantized models, Llama-2 small (7B) quantized via ggml, Mistral small, Llama 2 - 7B quantized, GPT4All small models, vicuna-7b (quantized).
+o	Transformers path: sentence-transformers/Hugging Face models for embeddings (if used).
+•	Provide scripts to:
+o	Download model weights (from HF or public mirrors) with checksums.
+o	Convert / quantize if required (e.g., ggml, bitsandbytes quantization).
+o	Install local inference runtime (e.g., llama.cpp or transformers + accelerate + bitsandbytes).
+•	Provide a fallback that does not require GPU: inference via llama.cpp or quantized ggml model or gpt4all runtime.
+ 
+3) Fine-tuning / Adaptation (two paths)
+
+Include both options, with clear code and instructions for whichever hardware the reviewer has:
+
+A. Lightweight adaptation (required)
+•	Use LoRA or adapters (e.g., peft + transformers) or prompt-tuning for small examples. This should be runnable on CPU for small epoch counts.
+•	Provide a script scripts/finetune_lora.py that:
+o	Loads the base model (or a 4-bit quantized variant).
+o	Fine-tunes with LoRA on a small recipes dataset (included).
+o	Saves the adapter/LoRA weights separately (so base model remains unchanged).
+•	The dataset: include a small curated JSON/CSV (data/recipes_small.json) with ~200 recipe entries (each entry: ingredients, title, steps, tags, difficulty, prep_time). Provide a script to expand/generate simple synthetic recipe variations from base items to increase size.
+
+B. Full fine-tuning (optional, GPU)
+•	Provide scripts/finetune_full.py that fine-tunes full weights (only if GPU available), with clear instructions on hardware needs and estimated time.
+•	Provide training config, logging, checkpointing, and --resume support.
+
+If fine-tuning is skipped due to resource limits, ensure the system still performs well using prompt-engineering templates and the base model.
+ 
+4) Datasets & data preparation
+•	Include data/recipes_small.json (200 records) and data/recipes_full_sample.json (larger sample).
+•	Each recipe record should be structured:
+{
+  "id": "r0001",
+  "title": "Scrambled Eggs with Onion",
+  "ingredients": ["egg", "onion", "salt", "pepper", "butter"],
+  "steps": ["Beat eggs...", "Heat pan...", "..."],
+  "tags": ["breakfast", "easy"],
+  "prep_time_min": 10,
+  "difficulty": "easy"
+}
+•	Provide a scripts/prepare_data.py to:
+o	Normalize ingredient names (lowercase, stem singular/plural).
+o	Generate negative/contrastive examples (ingredient lists that should not match certain recipes).
+o	Create few-shot prompt examples for prompt-based use.
+ 
+5) Inference API (FastAPI)
+•	Provide a FastAPI app app/main.py exposing:
+o	POST /api/v1/predict — Accepts JSON { "ingredients": ["egg","onion"], "top_k": 3, "mode": "hybrid" } and returns a ranked list of suggested recipes with:
+	recipe_id, title, score, ingredients_matched, missing_ingredients, instructions (short).
+o	GET /health — returns service and model status.
+o	POST /api/v1/chat — optionally expose conversational endpoint supporting short multi-turn chat (keeps a small context window).
+•	JSON response example:
+{
+  "query": ["egg", "onion"],
+  "results": [
+    {
+      "recipe_id": "r0001",
+      "title": "Scrambled Eggs with Onion",
+      "score": 0.92,
+      "ingredients_matched": ["egg", "onion"],
+      "missing_ingredients": ["butter"],
+      "instructions": "Beat eggs, sauté onion, add butter, scramble, serve."
+    }
+  ]
+}
+•	Implement caching for inference results (simple in-memory LRU cache) and concurrency-safe model loading.
+ 
+6) Matching logic & ranking
+•	Implement hybrid ranking combining:
+o	Exact ingredient matching (set intersection)
+o	Fuzzy matching for ingredient variants (use rapidfuzz / fuzzywuzzy)
+o	Semantic similarity (optional): embed ingredients/recipes with a small sentence-transformer and compute cosine similarity (use only if embeddings are available).
+•	Provide configurable weights for the ranking function (in config file).
+•	Produce an explainability section in responses listing which signals contributed to the score.
+ 
+7) Chatbot UI
+•	Provide a simple web UI (React or plain HTML+JS) under ui/:
+o	Input box for ingredients (comma-separated).
+o	Search button calls /api/v1/predict.
+o	Display ranked recipes with score and a “View full recipe” button to expand instructions and missing items.
+o	Optional: simple chat interface that sends messages to /api/v1/chat and displays multi-turn replies.
+•	Also include a CLI tool tools/query_cli.py that accepts ingredients from command line and prints JSON prettily, for users who prefer no browser.
+ 
+8) Packaging & run scripts
+•	Provide docker-compose.yml and Dockerfile optional for convenience, but the project must also be runnable without Docker.
+•	Provide scripts/run_local.sh and Windows scripts/run_local.bat with:
+o	Setup/venv creation
+o	Installing deps from requirements.txt
+o	Model download (if needed)
+o	Starting the FastAPI server
+•	Include a small Makefile with common targets:
+o	make setup
+o	make download-model
+o	make finetune
+o	make run
+o	make test
+ 
+9) Testing, evaluation & quality checks
+•	Unit tests for data preparation and ranking logic (pytest).
+•	Integration test that runs a lightweight model in minimal mode and verifies /api/v1/predict returns expected recipe for a set of canned inputs (e.g., egg, onion → returns scrambled eggs).
+•	Provide a notebooks/eval.ipynb (optional) showing sample evaluation metrics: top-1 accuracy on small test set, recall@k.
+ 
+10) README & documentation
+
+README.md must include:
+•	Project overview and architecture diagram (ASCII or image).
+•	Hardware requirements (CPU-only vs GPU).
+•	Step-by-step setup for Linux & Windows.
+•	How to run minimal mode and full mode.
+•	Example API requests & sample responses (curl).
+•	Troubleshooting tips (common errors and fixes).
+•	Licensing notes for any model weights used.
+ 
+11) Security & resource guidance
+•	Rate-limiting suggestions and how to add (middleware).
+•	Memory limits, swap guidance, and how to reduce memory (use quantized models, reduce batch size).
+•	Clear warnings about license of selected model: ensure the model allowed for local use and fine-tuning.
+ 
+12) Deliverables (explicit)
+
+Provide a single repository containing:
+•	app/ — FastAPI app and model interface
+•	models/ — download / conversion scripts and instructions (weights not committed)
+•	data/ — recipes dataset & prep scripts
+•	ui/ — web UI
+•	scripts/ — run, finetune, download shells
+•	tests/ — unit & integration tests
+•	requirements.txt or environment.yml
+•	README.md (comprehensive)
+•	LICENSE (MIT recommended)
+•	examples/ — sample curl commands and sample inputs/outputs
+ 
+13) Extra credit (optional advanced features)
+•	Add a small RAG-style retrieval: use recipe database + local embedding index (FAISS/Qdrant local) to find top candidate recipes then re-rank with LLM.
+•	Add user personalization: store simple user preferences (vegetarian, allergies) and prioritize them.
+•	Add small analytics dashboard showing most-searched ingredients and model latency.
+•	Docker image optimized with model cache and healthchecks for production-like deployment.
+ 
+Constraints & Acceptance Criteria (so AI knows quality bar)
+•	The project must be runnable on a standard laptop (document required memory/CPU assumptions).
+•	Provide both minimal and full code paths so reviewers with no GPU can still run and verify functionality.
+•	Include at least one end-to-end test that proves given egg, onion yields a reasonable scrambled-egg recipe.
+•	Documented and modular code with clear entry-points and scripts.
+ 
+Final instruction to the AI agent
+•	Produce the repository tree and all file contents.
+•	For long files, provide them as downloadable code blocks and include any shell commands to create files.
+•	Make sure the default branch runs minimal mode requiring no GPU, and provides instructions to enable full mode if GPU is available.
+•	If any steps are potentially long (model downloads / fine-tuning), include estimated time and size and remind the user to confirm—but do not attempt network operations automatically.
+ 
+
