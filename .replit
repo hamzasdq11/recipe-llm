@@ -1,7 +1,6 @@
 modules = ["python-3.11", "nodejs-20"]
 [agent]
 expertMode = true
-integrations = ["github:1.0.0"]
 
 [nix]
 channel = "stable-25_05"
@@ -35,6 +34,6 @@ outputType = "webview"
 localPort = 5000
 externalPort = 80
 
-[deployment]
-deploymentTarget = "autoscale"
-run = ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "5000"]
+[[ports]]
+localPort = 45927
+externalPort = 3000
