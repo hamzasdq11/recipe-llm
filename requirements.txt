@@ -54,3 +54,6 @@ requests
 tqdm
 uvicorn
 llama-cpp-python
+accelerate
+datasets
+peft

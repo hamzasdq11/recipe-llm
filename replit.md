@@ -22,6 +22,8 @@ A production-quality local-first recipe recommendation system that runs on stand
 - LoRA fine-tuning scripts for model adaptation
 
 ## Recent Changes
+- 2024-12-17: Added FINE_TUNING_GUIDE.md with local training instructions
+- 2024-12-17: Fixed chat prompt formatting and response handling
 - 2024-12-17: Implemented background model loading for faster server startup
 - 2024-12-17: Switched from llama-cpp-python to transformers library (CPU compatible)
 - 2024-12-17: Integrated TinyLlama-1.1B real LLM for chat responses
