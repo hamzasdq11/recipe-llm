@@ -22,6 +22,9 @@ A production-quality local-first recipe recommendation system that runs on stand
 - LoRA fine-tuning scripts for model adaptation
 
 ## Recent Changes
+- 2024-12-17: Implemented background model loading for faster server startup
+- 2024-12-17: Switched from llama-cpp-python to transformers library (CPU compatible)
+- 2024-12-17: Integrated TinyLlama-1.1B real LLM for chat responses
 - 2024-12-03: Fixed static file serving for CSS/JS
 - 2024-12-03: Fixed API integration tests with proper lifespan handling
 - 2024-12-03: Created 200 diverse recipes with normalized ingredients
