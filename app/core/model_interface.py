@@ -211,7 +211,14 @@ class TransformersInterface(BaseModelInterface):
             return "Model not loaded"
         
         try:
-            inputs = self._tokenizer(prompt, return_tensors="pt")
+            chat_prompt = f"""<|system|>
+You are a helpful recipe assistant. Give brief, direct answers to cooking questions. Do not simulate conversations or include "User:" in your response.</s>
+<|user|>
+{prompt}</s>
+<|assistant|>
+"""
+            
+            inputs = self._tokenizer(chat_prompt, return_tensors="pt")
             inputs = {k: v.to(self._model.device) for k, v in inputs.items()}
             
             outputs = self._model.generate(
@@ -220,11 +227,25 @@ class TransformersInterface(BaseModelInterface):
                 temperature=0.7,
                 top_p=0.9,
                 do_sample=True,
-                pad_token_id=self._tokenizer.eos_token_id
+                pad_token_id=self._tokenizer.eos_token_id,
+                eos_token_id=self._tokenizer.eos_token_id
             )
             
-            response = self._tokenizer.decode(outputs[0], skip_special_tokens=True)
-            return response[len(prompt):].strip()
+            full_response = self._tokenizer.decode(outputs[0], skip_special_tokens=True)
+            
+            if "<|assistant|>" in full_response:
+                response = full_response.split("<|assistant|>")[-1].strip()
+            else:
+                response = full_response[len(chat_prompt):].strip()
+            
+            for stop_seq in ["User:", "<|user|>", "<|system|>", "\nUser", "Assistant:"]:
+                if stop_seq in response:
+                    response = response.split(stop_seq)[0].strip()
+            
+            if response.startswith("Response:"):
+                response = response[9:].strip()
+            
+            return response
             
         except Exception as e:
             logger.error(f"Generation error: {e}")

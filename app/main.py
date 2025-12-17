@@ -250,7 +250,7 @@ async def chat(request: ChatRequest):
         else:
             response_text = f"I found the ingredients ({', '.join(found_ingredients)}), but couldn't find matching recipes. Try adding more ingredients!"
     
-    elif "hello" in message_lower or "hi" in message_lower:
+    elif any(word in message_lower.split() for word in ["hello", "hi", "hey"]):
         response_text = "Hello! I'm your recipe assistant. Tell me what ingredients you have, and I'll suggest delicious recipes you can make!"
     
     elif "help" in message_lower:
