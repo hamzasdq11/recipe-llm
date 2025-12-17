@@ -256,8 +256,20 @@ class ModelManager:
             self._interface = MockModelInterface()
             return self._interface
         
+        if model_name:
+            logger.info(f"Loading transformers model: {model_name}")
+            self._interface = TransformersInterface(
+                model_name=model_name,
+                quantize=False,
+                device_map="cpu"
+            )
+            if self._interface.load():
+                return self._interface
+            logger.warning("Failed to load transformers model")
+        
         if self.mode == "minimal":
             if model_path and os.path.exists(model_path):
+                logger.info(f"Trying llama.cpp model: {model_path}")
                 self._interface = LlamaCppInterface(
                     model_path=model_path,
                     n_ctx=2048,
@@ -266,23 +278,10 @@ class ModelManager:
                 )
                 if self._interface.load():
                     return self._interface
-            
-            logger.info("Falling back to mock model (no model file found)")
-            self._interface = MockModelInterface()
-            return self._interface
         
-        else:
-            if model_name:
-                self._interface = TransformersInterface(
-                    model_name=model_name,
-                    quantize=True
-                )
-                if self._interface.load():
-                    return self._interface
-            
-            logger.warning("Failed to load transformers model, falling back to mock")
-            self._interface = MockModelInterface()
-            return self._interface
+        logger.info("Falling back to mock model")
+        self._interface = MockModelInterface()
+        return self._interface
     
     @property
     def interface(self) -> Optional[BaseModelInterface]:

@@ -22,13 +22,13 @@ args = "Recipe LLM Server"
 name = "Recipe LLM Server"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "RECIPE_MODE=minimal RECIPE_USE_MOCK=true python -m uvicorn app.main:app --host 0.0.0.0 --port 5000"
-waitForPort = 5000
-
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "RECIPE_MODE=minimal RECIPE_USE_MOCK=false RECIPE_MODEL_NAME=TinyLlama/TinyLlama-1.1B-Chat-v1.0 python -m uvicorn app.main:app --host 0.0.0.0 --port 5000"
+waitForPort = 5000
 
 [[ports]]
 localPort = 5000

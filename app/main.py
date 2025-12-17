@@ -2,9 +2,11 @@
 
 import os
 import logging
+import asyncio
 from typing import List
 from contextlib import asynccontextmanager
 from functools import lru_cache
+from concurrent.futures import ThreadPoolExecutor
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -34,6 +36,23 @@ prediction_cache: TTLCache = TTLCache(maxsize=100, ttl=3600)
 data_loader: DataLoader = None
 ranker: RecipeRanker = None
 model_manager: ModelManager = None
+model_loading: bool = False
+executor = ThreadPoolExecutor(max_workers=1)
+
+
+def _load_model_sync(mode: str, model_path: str, model_name: str, use_mock: bool):
+    """Load model synchronously (runs in thread pool)."""
+    global model_manager, model_loading
+    model_loading = True
+    logger.info("Background model loading started...")
+    try:
+        model_manager = get_model_manager(mode)
+        model_manager.initialize(model_path=model_path, model_name=model_name, use_mock=use_mock)
+        logger.info(f"Model loaded successfully: {model_manager.interface.get_model_name() if model_manager.interface else 'unknown'}")
+    except Exception as e:
+        logger.error(f"Model loading failed: {e}")
+    finally:
+        model_loading = False
 
 
 @asynccontextmanager
@@ -66,15 +85,22 @@ async def lifespan(app: FastAPI):
     
     mode = os.environ.get("RECIPE_MODE", "minimal")
     model_path = os.environ.get("RECIPE_MODEL_PATH")
+    model_name = os.environ.get("RECIPE_MODEL_NAME")
     use_mock = os.environ.get("RECIPE_USE_MOCK", "true").lower() == "true"
     
-    model_manager = get_model_manager(mode)
-    model_manager.initialize(model_path=model_path, use_mock=use_mock)
-    logger.info(f"Model initialized in {mode} mode (mock={use_mock})")
+    if use_mock:
+        model_manager = get_model_manager(mode)
+        model_manager.initialize(model_path=model_path, model_name=model_name, use_mock=use_mock)
+        logger.info("Mock model initialized (instant)")
+    else:
+        loop = asyncio.get_event_loop()
+        loop.run_in_executor(executor, _load_model_sync, mode, model_path, model_name, use_mock)
+        logger.info("Model loading started in background...")
     
     yield
     
     logger.info("Shutting down Recipe LLM application...")
+    executor.shutdown(wait=False)
 
 
 app = FastAPI(
@@ -100,6 +126,8 @@ async def health_check():
     model_name = ""
     if model_manager and model_manager.interface:
         model_name = model_manager.interface.get_model_name()
+    elif model_loading:
+        model_name = "loading..."
     
     return HealthResponse(
         status="healthy",
