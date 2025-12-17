@@ -190,22 +190,53 @@ async def chat(request: ChatRequest):
     if not model_manager or not model_manager.is_ready():
         raise HTTPException(status_code=503, detail="Model not loaded")
     
-    system_prompt = """You are a helpful cooking assistant. Help users find recipes based on ingredients they have. Be concise and practical."""
+    message_lower = request.message.lower()
+    response_text = ""
     
-    history_text = ""
-    for msg in request.conversation_history[-5:]:
-        role = "User" if msg.role == "user" else "Assistant"
-        history_text += f"{role}: {msg.content}\n"
+    all_ingredients = data_loader.get_all_ingredients() if data_loader else []
+    found_ingredients = [ing for ing in all_ingredients if ing.lower() in message_lower]
     
-    prompt = f"""{system_prompt}
-
-{history_text}User: {request.message}
-Assistant:"""
+    if found_ingredients and ranker and data_loader:
+        results = ranker.rank_recipes(
+            query_ingredients=found_ingredients,
+            recipes=data_loader.recipes,
+            top_k=3,
+            mode="hybrid"
+        )
+        
+        if results:
+            recipe_suggestions = []
+            for i, match in enumerate(results, 1):
+                matched_str = ", ".join(match.exact_matches[:3])
+                missing_str = ", ".join(match.missing_ingredients[:3])
+                recipe_suggestions.append(
+                    f"{i}. **{match.recipe.title}** (Score: {match.score:.0%})\n"
+                    f"   - Matched: {matched_str}\n"
+                    f"   - You'll need: {missing_str if missing_str else 'Nothing else!'}\n"
+                    f"   - Prep time: {match.recipe.prep_time_min} min | Difficulty: {match.recipe.difficulty}"
+                )
+            
+            response_text = f"Based on your ingredients ({', '.join(found_ingredients)}), here are my top recipe suggestions:\n\n"
+            response_text += "\n\n".join(recipe_suggestions)
+            response_text += "\n\nWould you like the full recipe for any of these? Just ask!"
+        else:
+            response_text = f"I found the ingredients ({', '.join(found_ingredients)}), but couldn't find matching recipes. Try adding more ingredients!"
     
-    response_text = model_manager.interface.generate(
-        prompt=prompt,
-        max_tokens=request.max_tokens
-    )
+    elif "hello" in message_lower or "hi" in message_lower:
+        response_text = "Hello! I'm your recipe assistant. Tell me what ingredients you have, and I'll suggest delicious recipes you can make!"
+    
+    elif "help" in message_lower:
+        response_text = ("I can help you find recipes! Just tell me what ingredients you have. "
+                        "For example: 'I have eggs, onion, and cheese' or 'What can I make with chicken and rice?'")
+    
+    elif any(word in message_lower for word in ["thank", "thanks"]):
+        response_text = "You're welcome! Happy cooking! Let me know if you need more recipe ideas."
+    
+    else:
+        response_text = model_manager.interface.generate(
+            prompt=f"User asks about cooking: {request.message}\nAssistant:",
+            max_tokens=request.max_tokens
+        )
     
     updated_history = list(request.conversation_history)
     updated_history.append(ChatMessage(role="user", content=request.message))
